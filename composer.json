@@ -14,7 +14,8 @@
         "laravel/fortify": "^1.11",
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "rackbeat/laravel-ui-avatars": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
