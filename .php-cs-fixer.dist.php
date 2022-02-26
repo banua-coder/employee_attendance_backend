@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
-require __DIR__.'/bootstrap/app.php';
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/bootstrap/app.php';
 
 return (new Jubeki\LaravelCodeStyle\Config())
     ->setFinder(
@@ -16,7 +16,8 @@ return (new Jubeki\LaravelCodeStyle\Config())
     )
     ->setRules([
         '@Laravel' => true,
+        'ordered_imports' => ['sort_algorithm' => 'length'],
         // '@Laravel:risky' => true,
     ])
     // ->setRiskyAllowed(true)
-    ;
+;
