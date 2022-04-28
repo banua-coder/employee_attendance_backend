@@ -15,7 +15,7 @@ class {{ class }} extends Seeder
      */
     public function run()
     {
-        $filename = Str::replace('_seeder', '', Str::snake('{{ class }}'));
+        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('{{ class }}')));
 
         if (!\file_exists(database_path("csvs/$filename.csv"))) {
             // factory
