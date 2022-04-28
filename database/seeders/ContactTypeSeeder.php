@@ -3,9 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\ContactType;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
+use Illuminate\Database\Seeder;
 
 class ContactTypeSeeder extends Seeder
 {
@@ -18,7 +17,7 @@ class ContactTypeSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('ContactTypeSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
             return;
         }

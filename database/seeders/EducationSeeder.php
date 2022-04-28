@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use App\Models\Education;
 use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class EducationSeeder extends Seeder
 {
@@ -18,11 +17,10 @@ class EducationSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('EducationSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
             return;
         }
-
 
         $file = file(\database_path("csvs/$filename.csv"));
         $data = array_map('str_getcsv', $file);

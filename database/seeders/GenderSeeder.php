@@ -14,7 +14,7 @@ class GenderSeeder extends Seeder
      */
     public function run()
     {
-        if (!\file_exists(database_path('csvs/genders.csv'))) {
+        if (! \file_exists(database_path('csvs/genders.csv'))) {
             Gender::factory(2)->create();
 
             return;

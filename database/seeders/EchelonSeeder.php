@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
+use App\Models\Echelon;
 use Illuminate\Support\Str;
-use App\Models\ApprovalStatus;
 use Illuminate\Database\Seeder;
 
-class ApprovalStatusSeeder extends Seeder
+class EchelonSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,7 +15,7 @@ class ApprovalStatusSeeder extends Seeder
      */
     public function run()
     {
-        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('ApprovalStatusSeeder')));
+        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('EchelonSeeder')));
 
         if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
@@ -26,16 +26,16 @@ class ApprovalStatusSeeder extends Seeder
         $data = array_map('str_getcsv', $file);
         $keys = $data[0];
         array_shift($data);
-        $approvalStatuses = [];
+        $echelons = [];
         foreach ($data as $row) {
             $row = \array_combine($keys, $row);
-            $approvalStatuses[] = $row;
+            $echelons[] = $row;
         }
 
         $idColumns = ['id'];
 
-        ApprovalStatus::upsert(
-            $approvalStatuses,
+        Echelon::upsert(
+            $echelons,
             $idColumns,
             \array_diff($keys, $idColumns)
         );

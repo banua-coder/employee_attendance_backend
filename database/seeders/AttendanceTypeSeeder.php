@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use Illuminate\Support\Str;
 use App\Models\AttendanceType;
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class AttendanceTypeSeeder extends Seeder
 {
@@ -18,7 +17,7 @@ class AttendanceTypeSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('AttendanceTypeSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
             return;
         }

@@ -17,7 +17,7 @@ class ReligionSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('ReligionSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             Religion::factory(7)->create();
 
             return;

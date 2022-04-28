@@ -3,10 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Support\Str;
-use App\Models\ApprovalStatus;
 use Illuminate\Database\Seeder;
 
-class ApprovalStatusSeeder extends Seeder
+class GradeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,7 +14,7 @@ class ApprovalStatusSeeder extends Seeder
      */
     public function run()
     {
-        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('ApprovalStatusSeeder')));
+        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('GradeSeeder')));
 
         if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
@@ -26,16 +25,16 @@ class ApprovalStatusSeeder extends Seeder
         $data = array_map('str_getcsv', $file);
         $keys = $data[0];
         array_shift($data);
-        $approvalStatuses = [];
+        $grades = [];
         foreach ($data as $row) {
             $row = \array_combine($keys, $row);
-            $approvalStatuses[] = $row;
+            $grades[] = $row;
         }
 
         $idColumns = ['id'];
 
-        ApprovalStatus::upsert(
-            $approvalStatuses,
+        \App\Models\Grade::upsert(
+            $grades,
             $idColumns,
             \array_diff($keys, $idColumns)
         );

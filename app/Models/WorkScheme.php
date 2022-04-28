@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class AttendanceType extends Model
+class WorkScheme extends Model
 {
     use HasFactory;
 

@@ -2,10 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\Regency;
-use App\Models\Village;
-use App\Models\District;
-use App\Models\Province;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -19,7 +15,7 @@ class LocationAddress extends Model
     // Relationships
 
     /**
-     * Get the province that owns the LocationAddress
+     * Get the province that owns the LocationAddress.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -29,7 +25,7 @@ class LocationAddress extends Model
     }
 
     /**
-     * Get the regency that owns the LocationAddress
+     * Get the regency that owns the LocationAddress.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -39,7 +35,7 @@ class LocationAddress extends Model
     }
 
     /**
-     * Get the district that owns the LocationAddress
+     * Get the district that owns the LocationAddress.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -49,7 +45,7 @@ class LocationAddress extends Model
     }
 
     /**
-     * Get the village that owns the LocationAddress
+     * Get the village that owns the LocationAddress.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */

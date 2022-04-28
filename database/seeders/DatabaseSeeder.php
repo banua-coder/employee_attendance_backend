@@ -25,6 +25,10 @@ class DatabaseSeeder extends Seeder
             AttendanceStatusSeeder::class,
             AttendanceTypeSeeder::class,
             EducationSeeder::class,
+            EchelonSeeder::class,
+            GradeSeeder::class,
+            WorkSchemeSeeder::class,
+            ShiftSeeder::class,
         ]);
     }
 }

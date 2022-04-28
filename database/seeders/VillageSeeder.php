@@ -17,7 +17,7 @@ class VillageSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('VillageSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // Village::factory(13)->create();
             return;
         }

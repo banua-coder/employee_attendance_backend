@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\ContactType;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -16,7 +15,7 @@ class Contact extends Model
     // Relationships
 
     /**
-     * Get the contactType that owns the Contact
+     * Get the contactType that owns the Contact.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
