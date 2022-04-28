@@ -6,6 +6,7 @@ use Laravel\Sanctum\HasApiTokens;
 use Rackbeat\UIAvatars\HasAvatar;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -36,10 +37,37 @@ class User extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
+        'date_of_birth' => 'date',
+        'two_factor_confirmed_at' => 'datetime',
         'email_verified_at' => 'datetime',
     ];
 
     // Relationships
+
+    /**
+     * Get the religion that owns the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function religion(): BelongsTo
+    {
+        return $this->belongsTo(Religion::class);
+    }
+
+    /**
+     * Get the gender that owns the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function gender(): BelongsTo
+    {
+        return $this->belongsTo(Gender::class);
+    }
+
+    public function locationAddress()
+    {
+        return $this->morphOne(LocationAddress::class, 'location_addressable');
+    }
 
     // Methods
     public function getAvatar($size = 256)

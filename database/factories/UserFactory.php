@@ -19,10 +19,15 @@ class UserFactory extends Factory
     {
         return [
             'name' => $this->faker->name(),
+            'date_of_birth' => $this->faker->date(),
+            'username' => $this->faker->userName(),
             'email' => $this->faker->unique()->safeEmail(),
+            'id_card_number' => $this->faker->unique->text(18),
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),
+            'religion_id' => \App\Models\Religion::factory(),
+            'gender_id' => \App\Models\Gender::factory(),
         ];
     }
 
