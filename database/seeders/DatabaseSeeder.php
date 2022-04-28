@@ -21,6 +21,10 @@ class DatabaseSeeder extends Seeder
             DistrictSeeder::class,
             VillageSeeder::class,
             ContactTypeSeeder::class,
+            ApprovalStatusSeeder::class,
+            AttendanceStatusSeeder::class,
+            AttendanceTypeSeeder::class,
+            EducationSeeder::class,
         ]);
     }
 }

@@ -1,0 +1,5 @@
+id,name,description
+1,Disetujui,"Pengajuan anda memenuhi syarat dan telah disetujui"
+2,Ditolak,"Pengajuan anda tidak memenuhi syarat dan telah ditolak"
+3,Diproses,"Pengajuan anda sedang diproses"
+4,Dibatalkan,"Pengajuan anda telah dibatalkan"
