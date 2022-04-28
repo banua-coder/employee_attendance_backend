@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
 
-class ShiftSeeder extends Seeder
+class LeaveTypeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,9 +14,9 @@ class ShiftSeeder extends Seeder
      */
     public function run()
     {
-        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('ShiftSeeder')));
+        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('LeaveTypeSeeder')));
 
-        if (! \file_exists(database_path("csvs/$filename.csv"))) {
+        if (!\file_exists(database_path("csvs/$filename.csv"))) {
             // factory
             return;
         }
@@ -25,16 +25,16 @@ class ShiftSeeder extends Seeder
         $data = array_map('str_getcsv', $file);
         $keys = $data[0];
         array_shift($data);
-        $shifts = [];
+        $leaveTypes = [];
         foreach ($data as $row) {
             $row = \array_combine($keys, $row);
-            $shifts[] = $row;
+            $leaveTypes[] = $row;
         }
 
         $idColumns = ['id'];
 
-        \App\Models\Shift::upsert(
-            $shifts,
+        \App\Models\LeaveType::upsert(
+            $leaveTypes,
             $idColumns,
             \array_diff($keys, $idColumns)
         );

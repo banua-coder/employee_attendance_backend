@@ -29,6 +29,9 @@ class DatabaseSeeder extends Seeder
             GradeSeeder::class,
             WorkSchemeSeeder::class,
             ShiftSeeder::class,
+            OutstationTypeSeeder::class,
+            OutstationStatusSeeder::class,
+            LeaveTypeSeeder::class,
         ]);
     }
 }
