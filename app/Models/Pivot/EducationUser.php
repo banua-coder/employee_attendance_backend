@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class EducationUser extends Pivot
 {
-
     protected $guarded = [];
 
     protected $table = 'education_user';
@@ -17,7 +16,7 @@ class EducationUser extends Pivot
     // Relationships
 
     /**
-     * Get the user that owns the EducationUser
+     * Get the user that owns the EducationUser.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -27,7 +26,7 @@ class EducationUser extends Pivot
     }
 
     /**
-     * Get the education that owns the EducationUser
+     * Get the education that owns the EducationUser.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */

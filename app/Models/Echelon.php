@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\Position;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -16,7 +15,7 @@ class Echelon extends Model
     // Relationships
 
     /**
-     * Get all of the positions for the Echelon
+     * Get all of the positions for the Echelon.
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */

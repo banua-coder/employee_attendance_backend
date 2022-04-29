@@ -16,7 +16,7 @@ class LeaveTypeSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('LeaveTypeSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
             return;
         }

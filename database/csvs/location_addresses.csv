@@ -1,0 +1,713 @@
+id,location_addressable_id,location_addressable_type,district_id,regency_id,province_id,address_name,latitude,longitude,address
+1,1,App\Models\Office,7205080,7205,72,Sekretariat DPRD,-0.678016652,119.7514615,"Jl. Jati, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+2,2,App\Models\Office,7205080,7205,72,Bupati Donggala,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+3,3,App\Models\Office,7205080,7205,72,Wakil Bupati Donggala,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+4,4,App\Models\Office,7205080,7205,72,Sekretariat Daerah,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+5,5,App\Models\Office,7205080,7205,72,Bagian Administrasi Pemerintahan Umum,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+6,6,App\Models\Office,7205080,7205,72,Bagian Hubungan Masyarakat,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+7,7,App\Models\Office,7205080,7205,72,Bagian Administrasi Kesejahteraan Rakyat dan Kemasyarakatan,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+8,8,App\Models\Office,7205080,7205,72,Bagian Administrasi Perekonomian,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+9,9,App\Models\Office,7205080,7205,72,Bagian Administrasi Pembangunan dan Sumber Daya Alam,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+10,10,App\Models\Office,7205080,7205,72,Bagian Organisasi,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+11,11,App\Models\Office,7205080,7205,72,Bagian Hukum dan Perundang-undangan,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+12,12,App\Models\Office,7205080,7205,72,Bagian Perlengkapan Dan Umum,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+13,13,App\Models\Office,7205080,7205,72,Bagian Layanan Pengadaan Barang dan Jasa,-0.678625454,119.7525968,"8QC3+G2P, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+14,14,App\Models\Office,7205080,7205,72,Dinas Pekerjaan Umum,-0.678439073,119.7497586,"8PCX+HVW, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+15,15,App\Models\Office,7205080,7205,72,"Dinas Perumahan, Kawasan Permukiman dan Pertanahan",-0.678766291,119.755005,"Jalan Mpoluku, Gunung Bale, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+16,16,App\Models\Office,7205080,7205,72,Dinas Perhubungan,-0.67550403,119.7515645,"Jl. Jati, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+17,17,App\Models\Office,7205080,7205,72,Dinas Komunikasi dan Informatika,-0.675295175,119.7486843,"8PFX+R76, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+18,18,App\Models\Office,7205080,7205,72,Dinas Kesehatan,-0.674147997,119.747716,"Jl. Jati No.Kelurahan, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+19,19,App\Models\Office,7205080,7205,72,Puskesmas Donggala,-0.673697727,119.737973,"8PGQ+G53, Boya, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+20,20,App\Models\Office,7205080,7205,72,Pustu Loli Tasiburi,-0.763506009,119.7896762,"6QPQ+HRC, Loli Tasiburi, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+21,21,App\Models\Office,7205080,7205,72,Pustu Kabonga Besar,-0.706480463,119.7596796,"7QV5+8JF, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+22,22,App\Models\Office,7205080,7205,72,Pustu Bone Oge,,,
+23,23,App\Models\Office,7205082,7205,72,Pustu Lumbudolo,-0.737090696,119.7143011,"7P77+4HM, Lumbudolo, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+24,24,App\Models\Office,7205082,7205,72,Pustu Limboro,,,
+25,25,App\Models\Office,7205082,7205,72,Polindes Loli Oge,,,
+26,26,App\Models\Office,7205082,7205,72,Polindes Loli Tasiburi,,,
+27,27,App\Models\Office,7205082,7205,72,Poskedes Kabonga Kecil,,,
+28,28,App\Models\Office,7205082,7205,72,Poskedes Ganti,,,
+29,29,App\Models\Office,7205082,7205,72,Poskedes Powelua,,,
+30,30,App\Models\Office,7205082,7205,72,Poskedes Salubomba,,,
+31,31,App\Models\Office,7205082,7205,72,Poskesdes Loli Saluran,,,
+32,32,App\Models\Office,7205082,7205,72,Pustu Loli Dondo,,,
+33,33,App\Models\Office,7205082,7205,72,Pustu Powelua,,,
+34,34,App\Models\Office,7205082,7205,72,Pustu Towale,,,
+35,35,App\Models\Office,7205082,7205,72,Poskesdes Kola-Kola,,,
+36,36,App\Models\Office,7205082,7205,72,Poskesdes Lumbudolo,,,
+37,37,App\Models\Office,7205082,7205,72,Polindes Salu bomba,,,
+38,38,App\Models\Office,7205082,7205,72,Puskesmas Delatope,-0.725367539,119.703388,"7PF3+R8C, Kola-Kola, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+39,39,App\Models\Office,7205081,7205,72,Puskesmas Lembasada,-0.798454757,119.6322047,"6J2J+HHF, Tanahmea, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+40,40,App\Models\Office,7205081,7205,72,Pustu Mbuwu,,,
+41,41,App\Models\Office,7205081,7205,72,Pustu Watatu,,,
+42,42,App\Models\Office,7205081,7205,72,Pustu Lalombi,,,
+43,43,App\Models\Office,7205081,7205,72,Pustu Bambarini,,,
+44,44,App\Models\Office,7205081,7205,72,Pustu Tosale,,,
+45,45,App\Models\Office,7205081,7205,72,Poskedes Salungkaenu,,,
+46,46,App\Models\Office,7205081,7205,72,Poskedes Lino,,,
+47,47,App\Models\Office,7205081,7205,72,Poskedes Salumpaku,,,
+48,48,App\Models\Office,7205081,7205,72,Poskedes Tanah Mea,,,
+49,49,App\Models\Office,7205081,7205,72,Poskedes Lumbumamara,,,
+50,50,App\Models\Office,7205081,7205,72,Poskedes Lumbutarombo,,,
+51,51,App\Models\Office,7205081,7205,72,Poskesdes Watatu,,,
+52,52,App\Models\Office,7205081,7205,72,Pustu Lumbumamara,,,
+53,53,App\Models\Office,7205081,7205,72,Pustu Surumana,,,
+54,54,App\Models\Office,7205081,7205,72,Pustu Tanampulu,,,
+55,55,App\Models\Office,7205081,7205,72,Poskesdes Tolongano,,,
+56,56,App\Models\Office,7205041,7205,72,Puskesmas Lalundu,-1.285874372,119.5467611,"PG7W+GJX, Lalundu, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+57,57,App\Models\Office,7205041,7205,72,Pustu Minti Makmur,,,
+58,58,App\Models\Office,7205041,7205,72,Pustu Polanto Jaya,-1.288023686,119.6506243,"PJ6X+PXM, Pantolobete, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+59,59,App\Models\Office,7205041,7205,72,Pustu Polando Jaya,,,
+60,60,App\Models\Office,7205041,7205,72,Pustu Rio Mukti,,,
+61,61,App\Models\Office,7205041,7205,72,Pustu Panca Mukti,,,
+62,62,App\Models\Office,7205041,7205,72,Pustu Lalundu,,,
+63,63,App\Models\Office,7205041,7205,72,Pustu Bonemarawa,,,
+64,64,App\Models\Office,7205041,7205,72,Pustu Towiora,,,
+65,65,App\Models\Office,7205041,7205,72,Pustu Pakava,,,
+66,66,App\Models\Office,7205041,7205,72,Poskesdes Minti Makmur,,,
+67,67,App\Models\Office,7205041,7205,72,Polindes Rio Mukti,,,
+68,68,App\Models\Office,7205041,7205,72,Polindes Panca Mukti,,,
+69,69,App\Models\Office,7205041,7205,72,Polindes Lalundu Utama,,,
+70,70,App\Models\Office,7205041,7205,72,Polindes Bonemarawa,,,
+71,71,App\Models\Office,7205041,7205,72,Poskesdes Ngowi,,,
+72,72,App\Models\Office,7205041,7205,72,Poskedes Tinauka,,,
+73,73,App\Models\Office,7205041,7205,72,Poskesdes Pantolebete,,,
+74,74,App\Models\Office,7205041,7205,72,Puskesmas Lalundu Despot,-1.28604395,119.5457984,"PG7W+F5V, Lalundu, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+75,75,App\Models\Office,7205051,7205,72,Puskesmas Pinembani,,,
+76,76,App\Models\Office,7205051,7205,72,Pustu Palintuma,,,
+77,77,App\Models\Office,7205051,7205,72,Pustu Tamado,,,
+78,78,App\Models\Office,7205051,7205,72,Polindes Gimpubia,,,
+79,79,App\Models\Office,7205051,7205,72,Polindes Dangara'a,,,
+80,80,App\Models\Office,7205091,7205,72,Puskesmas Wani,-0.69071337,119.8399257,"Jl. H.M. Thalib, Wani Dua, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+81,81,App\Models\Office,7205091,7205,72,Pustu Wombo Induk,,,
+82,82,App\Models\Office,7205091,7205,72,Pustu Nupabomba,,,
+83,83,App\Models\Office,7205091,7205,72,Pustu Kebun Kopi,,,
+84,84,App\Models\Office,7205091,7205,72,Pustu Guntarano,,,
+85,85,App\Models\Office,7205091,7205,72,Poskedes Wani II,,,
+86,86,App\Models\Office,7205091,7205,72,Poskedes Wombo Kalonggo,,,
+87,87,App\Models\Office,7205091,7205,72,Polindes Wani II,,,
+88,88,App\Models\Office,7205091,7205,72,Poskesdes Bale,,,
+89,89,App\Models\Office,7205090,7205,72,Puskesmas Labuan,-0.671708019,119.82855,"8RHH+74H, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+90,90,App\Models\Office,7205090,7205,72,Pustu Anutamboto,,,
+91,91,App\Models\Office,7205090,7205,72,Pustu Anutaporo,,,
+92,92,App\Models\Office,7205090,7205,72,Polindes Labuan Lelea,,,
+93,93,App\Models\Office,7205090,7205,72,Polindes Labuan Induk,,,
+94,94,App\Models\Office,7205090,7205,72,Polindes Labuan Panimba,,,
+95,95,App\Models\Office,7205090,7205,72,Poskedes Toposo,,,
+96,96,App\Models\Office,7205090,7205,72,Poskedes Salumbone,,,
+97,97,App\Models\Office,7205090,7205,72,Polindes Kungguma,,,
+98,98,App\Models\Office,7205102,7205,72,Puskesmas Alindau,-0.337400484,119.7660307,"Jl. Tolitoli - Palu, Alindau, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+99,99,App\Models\Office,7205101,7205,72,Puskesmas Batusuya,-0.410386672,119.7633058,"HQQ7+R56, Batusuya, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+100,100,App\Models\Office,7205101,7205,72,Pustu Saloya,,,
+101,101,App\Models\Office,7205101,7205,72,Pustu Tibo,-0.494025591,119.7668178,"GQ48+8MQ, Tibo, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+102,102,App\Models\Office,7205102,7205,72,Pustu Tamarenja,,,
+103,103,App\Models\Office,7205102,7205,72,Pustu Oti,,,
+104,104,App\Models\Office,7205102,7205,72,Pustu Sikara,,,
+105,105,App\Models\Office,7205101,7205,72,Polindes Kaliburu,,,
+106,106,App\Models\Office,7205102,7205,72,Polindes Tamarenja,,,
+107,107,App\Models\Office,7205102,7205,72,Polindes Oti,,,
+108,108,App\Models\Office,7205102,7205,72,Polindes Alindau,,,
+109,109,App\Models\Office,7205100,7205,72,Puskesmas Toaya,-0.602995629,119.7985913,"Unnamed Rd,, Toaya Vunta, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+110,110,App\Models\Office,7205100,7205,72,Pustu Dalaka,,,
+111,111,App\Models\Office,7205100,7205,72,Pustu Sumari,,,
+112,112,App\Models\Office,7205100,7205,72,Polindes Lero Tatari,,,
+113,113,App\Models\Office,7205100,7205,72,Poskedes Masaingi,,,
+114,114,App\Models\Office,7205100,7205,72,Poskedes Marana,,,
+115,115,App\Models\Office,7205100,7205,72,Polindes Enu,,,
+116,116,App\Models\Office,7205100,7205,72,Poskedes Kumbasa,,,
+117,117,App\Models\Office,7205100,7205,72,Poskedes Taripa,,,
+118,118,App\Models\Office,7205100,7205,72,Pustu Lero,,,
+119,119,App\Models\Office,7205120,7205,72,Puskesmas Tompe,-0.211045619,119.8113581,"QRQ6+HC7, Tompe, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+120,120,App\Models\Office,7205120,7205,72,Pustu Lende,,,
+121,121,App\Models\Office,7205120,7205,72,Pustu Tanjung Padang,,,
+122,122,App\Models\Office,7205120,7205,72,Pustu Sipi,,,
+123,123,App\Models\Office,7205120,7205,72,Pustu Tondo,,,
+124,124,App\Models\Office,7205120,7205,72,Pustu Ombo,,,
+125,125,App\Models\Office,7205120,7205,72,Poskedes Ujumbou,,,
+126,126,App\Models\Office,7205120,7205,72,Polindes Ombo,,,
+127,127,App\Models\Office,7205120,7205,72,Polindes Jono Oge,,,
+128,128,App\Models\Office,7205120,7205,72,Polindes Dampal,,,
+129,129,App\Models\Office,7205120,7205,72,Polindes Sibado,,,
+130,130,App\Models\Office,7205120,7205,72,Polindes Lompio,,,
+131,131,App\Models\Office,7205120,7205,72,Poskesdes Sibadu,,,
+132,132,App\Models\Office,7205120,7205,72,poskesdes jono Oge,,,
+133,133,App\Models\Office,7205120,7205,72,Poskesdes jondo Sirenja,,,
+134,134,App\Models\Office,7205120,7205,72,Poskesdes Lende Ntovea,,,
+135,135,App\Models\Office,7205120,7205,72,Poskesdes Tondo,,,
+136,136,App\Models\Office,7205130,7205,72,Puskesmas Tambu,-0.048914537,119.8808163,"Jl. Tambu - Parigi Moutong, Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+137,137,App\Models\Office,7205130,7205,72,Pustu Labean,-0.122771313,119.8334344,"Jl. Tolitoli - Palu, Labean, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+138,138,App\Models\Office,7205130,7205,72,Pustu Siweli,,,
+139,139,App\Models\Office,7205130,7205,72,Pustu Sibualong,,,
+140,140,App\Models\Office,7205130,7205,72,Pustu Sibayu,0.102484075,119.8730849,"Jl. Tolitoli - Palu, Sibayu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94356"
+141,141,App\Models\Office,7205130,7205,72,Pustu Tovea Tambu,,,
+142,142,App\Models\Office,7205130,7205,72,Polindes Malino,,,
+143,143,App\Models\Office,7205131,7205,72,Puskesmas Malei,-0.123859932,119.6878159,"VMGP+CXQ, Malei, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+144,144,App\Models\Office,7205131,7205,72,Pustu Malei,,,
+145,145,App\Models\Office,7205131,7205,72,Pustu Ketong,,,
+146,146,App\Models\Office,7205131,7205,72,Pustu Rano,,,
+147,147,App\Models\Office,7205131,7205,72,Pustu Pomolulu,-0.050308786,119.7431861,"WPXR+MJJ, Pomolulu, Balaesang, Kabupaten Donggala, Sulawesi Tengah"
+148,148,App\Models\Office,7205131,7205,72,Poskedes Kamonji,,,
+149,149,App\Models\Office,7205131,7205,72,Polindes Walandano,,,
+150,150,App\Models\Office,7205131,7205,72,Polindes Ketong,,,
+151,151,App\Models\Office,7205131,7205,72,Poskedes Manimbaya,,,
+152,152,App\Models\Office,7205140,7205,72,Puskesmas Sabang,0.214195356,119.8596514,"6V75+JQW, Sabang, Damsol, Kabupaten Donggala, Sulawesi Tengah"
+153,153,App\Models\Office,7205140,7205,72,Pustu Kambayang,,,
+154,154,App\Models\Office,7205140,7205,72,Pustu Talaga,,,
+155,155,App\Models\Office,7205140,7205,72,Pustu Sioyong,0.21669031,119.9029466,"6V8X+FWQ, Sioyong, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+156,156,App\Models\Office,7205140,7205,72,Pustu Karya Mukti,0.171449489,119.9378675,"5WCJ+47M, Karyamukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+157,157,App\Models\Office,7205140,7205,72,Pustu Budi Mukti,,,
+158,158,App\Models\Office,7205140,7205,72,Pustu Panii,0.18889995,119.9938523,"Desa Panii, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+159,159,App\Models\Office,7205140,7205,72,Pustu Ponggerang,,,
+160,160,App\Models\Office,7205140,7205,72,Pustu Malonas,,,
+161,161,App\Models\Office,7205140,7205,72,Pustu Rerang,,,
+162,162,App\Models\Office,7205140,7205,72,Pustu Lembah Mukti,,,
+163,163,App\Models\Office,7205140,7205,72,Pustu Parisan Agung,0.157726825,119.9216704,"5W5C+3HG, Parisan Agung, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+164,164,App\Models\Office,7205140,7205,72,Poskedes Simantomo,,,
+165,165,App\Models\Office,7205140,7205,72,Polindes Karya Mukti,,,
+166,166,App\Models\Office,7205140,7205,72,Polindes Malonas,,,
+167,167,App\Models\Office,7205140,7205,72,Polindes Lambah Mukti,,,
+168,168,App\Models\Office,7205160,7205,72,Puskesmas Balukang,0.582051423,120.0406475,"H2JR+R6P, Balukang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+169,169,App\Models\Office,7205160,7205,72,Pustu Bou,0.657626873,120.0259075,"Jl. Tolitoli - Palu, Bou, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+170,170,App\Models\Office,7205160,7205,72,Pustu Siwalempu,0.533060156,120.0695946,"Jl. Tolitoli - Palu, Siwalempu, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+171,171,App\Models\Office,7205160,7205,72,Pustu Siboang,,,
+172,172,App\Models\Office,7205160,7205,72,Pustu Samalili,,,
+173,173,App\Models\Office,7205160,7205,72,Pustu Tonggolobibi,,,
+174,174,App\Models\Office,7205160,7205,72,Pustu Bukit Harapan,,,
+175,175,App\Models\Office,7205160,7205,72,Pustu Ou,,,
+176,176,App\Models\Office,7205160,7205,72,Polindes Maputi,,,
+177,177,App\Models\Office,7205160,7205,72,Pustu Pangalaseang,,,
+178,178,App\Models\Office,7205160,7205,72,Puskemas Tonggolobibi,0.485932341,120.0081183,"F2P5+82F, Tonggolobibi, Sojol, Kabupaten Donggala, Sulawesi Tengah"
+179,179,App\Models\Office,7205161,7205,72,Puskesmas Ogoamas,0.729966281,120.1363189,"P4HP+XGJ, Ogoamas I, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+180,180,App\Models\Office,7205161,7205,72,Pustu Ogoamasa II,0.740585618,120.1263107,"P4RG+42W, Ogoamas II, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah"
+181,181,App\Models\Office,7205161,7205,72,Pustu Lenju,,,
+182,182,App\Models\Office,7205161,7205,72,Pustu Pesik,0.710916726,120.0628422,"Jl. Tadulako, Pesik, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+183,183,App\Models\Office,7205130,7205,72,Rumah Sakit Umum Daerah Tambu,-0.039644367,119.880657,"Desa Mapane Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+184,184,App\Models\Office,7205080,7205,72,Badan Rumah Sakit Umum Daerah Kabelota,-0.703996405,119.757012,"Jalan Palu-Donggala, Kabonga Besar, Banawa, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94111"
+185,185,App\Models\Office,7205080,7205,72,Dinas Pengendalian Penduduk dan Keluarga Berencana,-0.676110297,119.7488267,"8PFX+FG8, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+186,186,App\Models\Office,7205080,7205,72,Dinas Pendidikan dan Kebudayaan,-0.679019038,119.7557658,"Jl. Jati No.10, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+187,187,App\Models\Office,7205080,7205,72,UPTD Kec. Banawa,-0.693452078,119.7342058,"Jl. Poros Palu - Mamuju No.40, Ganti, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+188,188,App\Models\Office,7205080,7205,72,SDN 1 Banawa,-0.670521348,119.7457079,"8PHW+Q7M, Gunung Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+189,189,App\Models\Office,7205080,7205,72,SDN 6 Banawa,-0.677572203,119.7377154,"8PCQ+W2X, Maleni, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+190,190,App\Models\Office,7205080,7205,72,SDN 4 Banawa,-0.668238519,119.742388,"Jl. Pelabuhan No.36, Boya, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+191,191,App\Models\Office,7205080,7205,72,SDN 9 Banawa,-0.673585663,119.7370703,"Jl. Kesehatan No.11Kelurahan, Boya, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+192,192,App\Models\Office,7205080,7205,72,SDN 5 Banawa,-0.658000052,119.7256717,"Jalan Tanpa Nama, Boneoge, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+193,193,App\Models\Office,7205080,7205,72,SDN 13 Banawa,,,
+194,194,App\Models\Office,7205080,7205,72,SDN 7 Banawa,-0.691244736,119.7579847,"Jl. Tanah Runtuh Dusun Nambo-Batumaluli, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+195,195,App\Models\Office,7205080,7205,72,SDN 3 Banawa,-0.706912328,119.7628492,"7QV7+64F, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+196,196,App\Models\Office,7205080,7205,72,SDN 10 Banawa,-0.718100079,119.7741447,"Desa Pangga, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+197,197,App\Models\Office,7205080,7205,72,SDN 2 Banawa,-0.758773295,119.7872267,"6QRP+9QV, Loli Tasiburi, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+198,198,App\Models\Office,7205080,7205,72,SDN 8 Banawa,,,
+199,199,App\Models\Office,7205080,7205,72,SDN 14 Banawa,-0.752114537,119.7910475,"Gg. Kalipopo No.49, Loli Tasiburi, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+200,200,App\Models\Office,7205080,7205,72,SDN 17 Banawa,-0.765482253,119.7875063,"6QMP+QXJ, Loli Tasiburi, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+201,201,App\Models\Office,7205080,7205,72,SDN 22 Banawa,-0.759016403,119.7765624,"Jl. Pangasi, Loli Tasiburi, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+202,202,App\Models\Office,7205080,7205,72,SDN 15 Banawa,-0.674499256,119.7530773,"8QG3+53M, Tanjung Batu, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+203,203,App\Models\Office,7205080,7205,72,SDN 16 Banawa,-0.666023705,119.7406158,"Jl. Giliraja, Labuan Bajo, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+204,204,App\Models\Office,7205080,7205,72,SDN 11 Banawa,,,
+205,205,App\Models\Office,7205080,7205,72,SDN 12 Banawa,-0.672840101,119.7228134,"8PGF+V42, Boneoge, Banawa, Kabupaten Donggala, Sulawesi Tengah"
+206,206,App\Models\Office,7205080,7205,72,SDN 19 Banawa,-0.704761149,119.754543,"7QV3+XC7, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+207,207,App\Models\Office,7205080,7205,72,SDN 20 Banawa,-0.710150716,119.7048315,"Jalan Tanpa Nama, Limboro, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+208,208,App\Models\Office,7205080,7205,72,SDN 26 Banawa,,,
+209,209,App\Models\Office,7205080,7205,72,SDN 18 Banawa,-0.710963259,119.7546895,"7QQ3+FJQ, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+210,210,App\Models\Office,7205080,7205,72,SDN 23 Banawa,,,
+211,211,App\Models\Office,7205080,7205,72,SDN 24 Banawa,-0.681497734,119.7588533,"Jl. Jati, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+212,212,App\Models\Office,7205080,7205,72,SDN 25 Banawa,-0.675731307,119.737886,"8PFQ+M35, Boya, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+213,213,App\Models\Office,7205080,7205,72,SMP Negeri 1 Banawa,-0.672605667,119.7432158,"Jl. Malonda, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+214,214,App\Models\Office,7205080,7205,72,SMP Negeri 2 Banawa,-0.671021974,119.7428164,"SMP NEGERI 2, Tj. Batu, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+215,215,App\Models\Office,7205080,7205,72,SMP Negeri 3 Banawa,-0.760016697,119.7880158,"6QQQ+W3W, Loli Tasiburi, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+216,216,App\Models\Office,7205080,7205,72,SMP Negeri 4 Banawa,-0.710095038,119.7628304,"Jl. Uwe Mole No.91 Kel, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+217,217,App\Models\Office,7205080,7205,72,SMP Negeri 5 Banawa,-0.659018124,119.7276898,"8PRG+7QW, Boneoge, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+218,218,App\Models\Office,7205080,7205,72,SMP Negeri 6 Banawa,-0.705019613,119.726818,"7PVG+XM3, Ganti, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+219,219,App\Models\Office,7205080,7205,72,SDN 21 Banawa,,,
+220,220,App\Models\Office,7205080,7205,72,Sanggar Kegiatan Belajar (SKB) Mavali Banawa,-0.674707314,119.7478164,"8PGW+3XG, Gunung Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+221,221,App\Models\Office,7205080,7205,72,SMPN Satap 4 Banawa,,,
+222,222,App\Models\Office,7205082,7205,72,SDN 5 Banawa Tengah,-0.722422041,119.6989503,"7MHX+2H2, Limboro, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+223,223,App\Models\Office,7205082,7205,72,SDN 4 Banawa Tengah,-0.737882162,119.7144212,"Jalan Tanpa Nama, Lumbudolo, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+224,224,App\Models\Office,7205082,7205,72,SDN 7 Banawa Tengah,,,
+225,225,App\Models\Office,7205082,7205,72,SDN 2 Banawa Tengah,-0.72649653,119.6811478,"7MFJ+8FR, Towale, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+226,226,App\Models\Office,7205082,7205,72,SDN 6 Banawa Tengah,-0.741504615,119.6856825,"Salubomba, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah"
+227,227,App\Models\Office,7205082,7205,72,SDN 10 Banawa Tengah,,,
+228,228,App\Models\Office,7205082,7205,72,SDN 1 Banawa Tengah,-0.726688561,119.681412,"7MFJ+8G6, Towale, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+229,229,App\Models\Office,7205082,7205,72,SDN 3 Banawa Tengah,-0.725383023,119.6876665,"7MFQ+R2Q, Mekar Baru, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+230,230,App\Models\Office,7205082,7205,72,SDN 8 Banawa Tengah,-0.775122607,119.7190446,"6PF9+WC8, Powelua, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+231,231,App\Models\Office,7205082,7205,72,SDN 9 Banawa Tengah,-0.793806852,119.7236469,"6P4F+CCW, Powelua, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+232,232,App\Models\Office,7205082,7205,72,SMP Negeri 1 Banawa Tengah,-0.721271019,119.7007856,"Jl. Banawa, Limboro, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+233,233,App\Models\Office,7205082,7205,72,SMP Negeri 2 Banawa Tengah,-0.73934333,119.7135775,"7P67+7C2, Lumbudolo, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+234,234,App\Models\Office,7205082,7205,72,UPTD Kec. Banawa Tengah,-0.71964214,119.7018806,"Jl. Banawa, Limboro, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+235,235,App\Models\Office,7205082,7205,72,SMPN Satap 3 Banawa Tengah,-0.775118018,119.7190633,"Jl. Manganda No.17, Powelua, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+236,236,App\Models\Office,7205082,7205,72,SDN 12 Banawa Tengah,-0.733207634,119.6899437,"7M8Q+MWH, Salubomba, Central Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+237,237,App\Models\Office,7205082,7205,72,SDN 11 Banawa Tengah,-0.68660653,119.7368568,"Jl. Banawa, Maleni, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+238,238,App\Models\Office,7205082,7205,72,SDN 13 Banawa Tengah,,,
+239,239,App\Models\Office,7205082,7205,72,SMPN SATAP 4 BANAWA TENGAH,-0.793606415,119.7247049,"6P4F+FG9, Powelua, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+240,240,App\Models\Office,7205081,7205,72,UPTD Kec. Banawa Selatan,-0.719624094,119.7019585,"Jl. Banawa, Limboro, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+241,241,App\Models\Office,7205081,7205,72,SDN 2 Banawa Selatan,-0.798309281,119.7025963,"Jalan Tanpa Nama, Lumbumamara, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+242,242,App\Models\Office,7205081,7205,72,SDN 1 Banawa Selatan,-0.797959368,119.6321529,"6J2J+RQ5, Tanahmea, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+243,243,App\Models\Office,7205081,7205,72,SD Negeri Tanahmea,,,
+244,244,App\Models\Office,7205081,7205,72,SDN 4 Banawa Selatan,,,
+245,245,App\Models\Office,7205081,7205,72,SDN 6 Banawa Selatan,-0.836927964,119.6093587,"Jl. Poros Majene - Mamuju, Lalombi, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+246,246,App\Models\Office,7205081,7205,72,SDN 3 Banawa Selatan,-0.860578084,119.5714517,"4HQC+QG4, Surumana, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+247,247,App\Models\Office,7205081,7205,72,SDN 8 Banawa Selatan,,,
+248,248,App\Models\Office,7205081,7205,72,SDN 17 Banawa Selatan,-0.94126204,119.5736064,"Jalan Tanpa Nama, Malino, Tommo, Kabupaten Donggala, Sulawesi Tengah 94362"
+249,249,App\Models\Office,7205081,7205,72,SDN 13 Banawa Selatan,,,
+250,250,App\Models\Office,7205081,7205,72,SDN 27 Banawa Selatan,,,
+251,251,App\Models\Office,7205081,7205,72,SDN 18 Banawa Selatan,,,
+252,252,App\Models\Office,7205081,7205,72,SDN 19 Banawa Selatan,-0.95040026,119.5832001,"2HXM+R7J, Malino, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94362"
+253,253,App\Models\Office,7205081,7205,72,SDN 16 Banawa Selatan,-0.873240851,119.5871024,"4HGP+MQR, Watatu, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+254,254,App\Models\Office,7205081,7205,72,SDN 15 Banawa Selatan,-0.855213469,119.65793,"4MV5+W47, Salumpaku, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+255,255,App\Models\Office,7205081,7205,72,SDN 14 Banawa Selatan,-0.911756874,119.638513,"3JQQ+78G, Mbuwu, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+256,256,App\Models\Office,7205081,7205,72,SDN 20 Banawa Selatan,-0.825478893,119.6723803,"5MFC+RW9, Bambarimi, Banawa Selatan, Kabupaten Donggala, Sulawesi Tengah 94351"
+257,257,App\Models\Office,7205081,7205,72,SDN 23 Banawa Selatan,,,
+258,258,App\Models\Office,7205081,7205,72,SDN 28 Banawa Selatan,-0.87755498,119.6815844,"4MCJ+XJF, Salumpaku, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+259,259,App\Models\Office,7205081,7205,72,SDN 24 Banawa Selatan,,,
+260,260,App\Models\Office,7205081,7205,72,SDN 10 Banawa Selatan,,,
+261,261,App\Models\Office,7205081,7205,72,SDN 9 Banawa Selatan,,,
+262,262,App\Models\Office,7205081,7205,72,SDN 7 Banawa Selatan,-0.819715114,119.6492096,"5JJX+4MG, Tanahmea, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+263,263,App\Models\Office,7205081,7205,72,SDN 12 Banawa Selatan,,,
+264,264,App\Models\Office,7205081,7205,72,SDN 29 Banawa Selatan,,,
+265,265,App\Models\Office,7205081,7205,72,SDN 5 Banawa Selatan,,,
+266,266,App\Models\Office,7205081,7205,72,SMP Negeri 1 Banawa Selatan,-0.794878123,119.6351829,"6J4P+233, Tolongano, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+267,267,App\Models\Office,7205081,7205,72,SMP Negeri 2 Banawa Selatan,-0.871880753,119.5878591,"4HHQ+64R, Watatu, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+268,268,App\Models\Office,7205081,7205,72,SDN 25 Banawa Selatan,-0.907748018,119.6050671,"3JR3+VXP, Mbuwu, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+269,269,App\Models\Office,7205081,7205,72,SDN 11 Banawa Selatan,-0.810550018,119.6270263,"Jalan Tanpa Nama, Tanahmea, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+270,270,App\Models\Office,7205081,7205,72,SDN 21 Banawa Selatan,-0.847625542,119.634867,"Jalan Sansibar, Salusumpu, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+271,271,App\Models\Office,7205081,7205,72,SMPN Satap 3 Banawa Selatan,,,
+272,272,App\Models\Office,7205081,7205,72,SDN 22 Banawa Selatan,,,
+273,273,App\Models\Office,7205081,7205,72,SMP Negeri 5 Banawa Selatan,,,
+274,274,App\Models\Office,7205081,7205,72,SMPN Satap 5 Banawa Selatan,,,
+275,275,App\Models\Office,7205081,7205,72,SMPN Satap 6 Banawa Selatan,-0.825581763,119.6729272,"Jalan Risigo No.mor 56, Salungkaenu, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+276,276,App\Models\Office,7205081,7205,72,SDN 3 Lumbumamara,,,
+277,277,App\Models\Office,7205081,7205,72,SMPN Satap 8 Banawa Selatan,,,
+278,278,App\Models\Office,7205081,7205,72,SDN 32 Banawa Selatan,-0.874864837,119.5974493,"Jalan Tanpa Nama, dusun 02, Watatu, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+279,279,App\Models\Office,7205081,7205,72,SDN 30 Banawa Selatan,-0.835309529,119.6524637,"Jalan Tanpa Nama, Bambarimi, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+280,280,App\Models\Office,7205081,7205,72,SDN 33 Banawa Selatan,-0.920593059,119.5710345,"Jalan Tanpa Nama, Malino, Tommo, Kabupaten Donggala, Sulawesi Tengah 94362"
+281,281,App\Models\Office,7205081,7205,72,SDN 31 Banawa Selatan,,,
+282,282,App\Models\Office,7205081,7205,72,SDN 26 Banawa Selatan,,,
+283,283,App\Models\Office,7205081,7205,72,TK Negeri Pembina Desa Watatu,,,
+284,284,App\Models\Office,7205081,7205,72,SMPN Satap 4 Banawa Selatan,,,
+285,285,App\Models\Office,7205081,7205,72,SDN 34 Banawa Selatan,,,
+286,286,App\Models\Office,7205081,7205,72,SDN 35 Banawa Selatan,,,
+287,287,App\Models\Office,7205081,7205,72,SMPN Satap 7 Banawa Selatan,-0.847732244,119.6347145,"5J2M+VRW, Lalombi, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+288,288,App\Models\Office,7205081,7205,72,SMPN Satap 9 Banawa Selatan,-0.834695389,119.7002657,"5M8X+4X4, Salungkaenu, South Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+289,289,App\Models\Office,7205081,7205,72,SMPN 10 Banawa Selatan,-0.920400857,119.571841,"Jalan Tanpa Nama, Malino, Tommo, Kabupaten Donggala, Sulawesi Barat 94362"
+290,290,App\Models\Office,7205041,7205,72,UPTD Kec. Rio Pakava,,,
+291,291,App\Models\Office,7205041,7205,72,SDN 1 Rio Pakava,-1.3849871,119.4757794,"JF7G+W4G, Towiora, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+292,292,App\Models\Office,7205041,7205,72,SDN 2 Rio Pakava,-1.297101484,119.5465728,"PG3W+5J3, Lalundu, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+293,293,App\Models\Office,7205041,7205,72,SDN 3 Rio Pakava,,,
+294,294,App\Models\Office,7205041,7205,72,SDN 4 Rio Pakava,-1.298385121,119.5636932,"PH27+MF2, Lalundu, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+295,295,App\Models\Office,7205041,7205,72,SDN 5 Rio Pakava,,,
+296,296,App\Models\Office,7205041,7205,72,SDN 6 Rio Pakava,,,
+297,297,App\Models\Office,7205041,7205,72,SDN 7 Rio Pakava,-1.337016655,119.5303799,"MG7J+547, Minti Makmur, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+298,298,App\Models\Office,7205041,7205,72,SDN 8 Rio Pakava,,,
+299,299,App\Models\Office,7205041,7205,72,SDN 9 Rio Pakava,-1.32734173,119.5458038,"Jalan Tanpa Nama, Bukit Indah, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+300,300,App\Models\Office,7205041,7205,72,SDN 10 Rio Pakava,-1.306459446,119.5450684,"MGVV+6FQ, Polando Jaya, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+301,301,App\Models\Office,7205041,7205,72,SDN 11 Rio Pakava,,,
+302,302,App\Models\Office,7205041,7205,72,SDN 12 Rio Pakava,-1.264015774,119.5472387,"PGPW+8M6, Bonemarawa, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 91571"
+303,303,App\Models\Office,7205041,7205,72,SMP Negeri 1 Rio Pakava,-1.32752995,119.5139932,"MGC7+XG6, Minti Makmur, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+304,304,App\Models\Office,7205041,7205,72,SMP Negeri 2 Rio Pakava,-1.285163691,119.5456866,"PG7W+W67, Lalundu, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+305,305,App\Models\Office,7205041,7205,72,SMPN Satap 4 Rio Pakava,,,
+306,306,App\Models\Office,7205041,7205,72,SMPN Satap 3 Rio Pakava,,,
+307,307,App\Models\Office,7205041,7205,72,SDN Pombiu,,,
+308,308,App\Models\Office,7205041,7205,72,SDN 14 Rio Pakava,,,
+309,309,App\Models\Office,7205041,7205,72,SMP NGOVI KEC. RIO PAKAVA,,,
+310,310,App\Models\Office,7205041,7205,72,SDN 13 Rio Pakava,,,
+311,311,App\Models\Office,7205041,7205,72,SDN 15 Rio Pakava,,,
+312,312,App\Models\Office,7205041,7205,72,SMPN Satap 5 Rio Pakava,,,
+313,313,App\Models\Office,7205041,7205,72,SDN 21 Rio Pakava,-1.212709298,119.5510387,"QHP2+W94, Ngovi, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 91574"
+314,314,App\Models\Office,7205041,7205,72,SMPN 7 RIO PAKAVA,-1.396650862,119.5464486,"JG3W+8H3, Tinauka, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+315,315,App\Models\Office,7205041,7205,72,TK Negeri Pembina Desa Minti Makmur,,,
+316,316,App\Models\Office,7205041,7205,72,SDN 16 Rio Pakava,,,
+317,317,App\Models\Office,7205041,7205,72,SDN 18 Rio Pakava,,,
+318,318,App\Models\Office,7205041,7205,72,SDN 19 Rio Pakava,,,
+319,319,App\Models\Office,7205041,7205,72,SDN 20 Rio Pakava,,,
+320,320,App\Models\Office,7205041,7205,72,SDN 25 Rio Pakava,,,
+321,321,App\Models\Office,7205041,7205,72,SDN 26 Rio Pakava,,,
+322,322,App\Models\Office,7205041,7205,72,SDN 22 Rio Pakava,,,
+323,323,App\Models\Office,7205041,7205,72,SDN 23 Rio Pakava,-1.362259757,119.5573946,"Jalan Tanpa Nama, Tinauka, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+324,324,App\Models\Office,7205041,7205,72,SDN 24 Rio Pakava,,,
+325,325,App\Models\Office,7205041,7205,72,SDN 27 Rio Pakava,,,
+326,326,App\Models\Office,7205041,7205,72,SDN 1 Lalundu,,,
+327,327,App\Models\Office,7205041,7205,72,SMP Negeri 3 Rio Pakava,,,
+328,328,App\Models\Office,7205041,7205,72,SMPN Satap 6 Rio Pakava,-1.38587476,119.475715,"Jl. Iradat Puri, Towiora, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+329,329,App\Models\Office,7205041,7205,72,SDN 17 RIO PAKAVA,,,
+330,330,App\Models\Office,7205051,7205,72,UPTD Kec. Pinembani,,,
+331,331,App\Models\Office,7205051,7205,72,SDN 2 Pinembani,-1.124376156,119.7563823,"VQG4+6CQ, Dusun Kamantaya, Palintuma, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+332,332,App\Models\Office,7205051,7205,72,SDN 3 Pinembani,,,
+333,333,App\Models\Office,7205051,7205,72,SDN 4 Pinembani,,,
+334,334,App\Models\Office,7205051,7205,72,SDN 5 Pinembani,-1.05135349,119.7337433,"WPWJ+VVQ, Tamodo, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+335,335,App\Models\Office,7205051,7205,72,SDN 1 Pinembani,,,
+336,336,App\Models\Office,7205051,7205,72,SDN 6 Pinembani,-1.10722747,119.7052434,"Desa Karovia, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+337,337,App\Models\Office,7205051,7205,72,SDN 7 Pinembani,-1.085221165,119.7102904,"WP76+V3M, Palintuma, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+338,338,App\Models\Office,7205051,7205,72,SDN 8 Pinembani,-1.070213572,119.7034316,"WPH3+V9P, Gimpubia, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+339,339,App\Models\Office,7205051,7205,72,SMP Negeri 1 Pinembani,-1.030661935,119.7286171,"Jl. H. Adam A, Jl. Lamarauna No.87, Tamodo, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+340,340,App\Models\Office,7205051,7205,72,SMPN 2 PINEMBANI,,,
+341,341,App\Models\Office,7205091,7205,72,UPTD Kec. Tanantovea,,,
+342,342,App\Models\Office,7205091,7205,72,SDN 1 Tanantovea,-0.768409055,119.8831652,"6VJM+H5, Guntarano, Tanantovea, Kabupaten Donggala, Sulawesi Tengah"
+343,343,App\Models\Office,7205091,7205,72,SDN 3 Tanantovea,-0.692485244,119.839505,"Jl. H.M. Thalib, Wani Dua, Tawaeli, Kabupaten Donggala, Sulawesi Tengah 94352"
+344,344,App\Models\Office,7205091,7205,72,SDN 7 Tanantovea,-0.686210454,119.8469116,"Jl. Kayu Riya, Wani Lumbumpetigo, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+345,345,App\Models\Office,7205091,7205,72,SDN 2 Tanantovea,-0.690523177,119.881243,"8V5J+QFM, Wombo Panau, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+346,346,App\Models\Office,7205091,7205,72,SDN 9 Tanantovea,,,
+347,347,App\Models\Office,7205091,7205,72,SDN 5 Tanantovea,,,
+348,348,App\Models\Office,7205091,7205,72,SDN 6 Tanantovea,-0.770894154,119.8887249,"Jl. Togelele, Guntarano, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94141"
+349,349,App\Models\Office,7205091,7205,72,SDN 4 Tanantovea,-0.773074448,119.9060629,"Jl. Pue Salangga,, Bale, Tanantovea, Guntarano, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94145"
+350,350,App\Models\Office,7205091,7205,72,SDN 11 Tanantovea,,,
+351,351,App\Models\Office,7205091,7205,72,SD Inpres Wani,,,
+352,352,App\Models\Office,7205091,7205,72,SDN 10 Tanantovea,-0.686861865,119.9011746,"8V6X+P5M, Wombo Kalonggo, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+353,353,App\Models\Office,7205091,7205,72,SDN 12 Tanantovea,-0.767927191,119.8769953,"6VJG+RQC, Guntarano, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94141"
+354,354,App\Models\Office,7205091,7205,72,SDN 13 Tanantovea,-0.71995832,120.0080204,"72J5+259, Nupa Bomba, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+355,355,App\Models\Office,7205091,7205,72,SD Negeri Kecil Tawao,,,
+356,356,App\Models\Office,7205091,7205,72,SMP Negeri 1 Tanantovea,-0.743141401,119.8969848,"7V4W+PPH, Nupa Bomba, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94142"
+357,357,App\Models\Office,7205091,7205,72,SMPN Satap 3 Tanantovea,-0.722079806,119.9940966,"7XHV+5J2, Nupa Bomba, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+358,358,App\Models\Office,7205091,7205,72,SMP Negeri 2 Tanantovea,-0.688231729,119.8958721,"8V6W+P8V, Wombo Kalonggo, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94352"
+359,359,App\Models\Office,7205091,7205,72,SDN 8 Tanantovea,,,
+360,360,App\Models\Office,7205101,7205,72,SDN 2 TIBO,,,
+361,361,App\Models\Office,7205091,7205,72,SMP Negeri 4 Tanantovea,-0.768407333,119.8866648,"6VJP+JJ4, Guntarano, Tanantovea, Kabupaten Donggala, Sulawesi Tengah 94141"
+362,362,App\Models\Office,7205091,7205,72,SDN 14 Tanantovea,,,
+363,363,App\Models\Office,7205091,7205,72,SMP Negeri 3 Tanantovea,,,
+364,364,App\Models\Office,7205091,7205,72,TK Negeri Pembina Desa Wani,,,
+365,365,App\Models\Office,7205090,7205,72,UPTD Kec. Labuan,-0.672262064,119.8256538,"8RHG+26R, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+366,366,App\Models\Office,7205090,7205,72,SDN 2 Labuan,-0.678830567,119.8383332,"8RCQ+F79, Labuan Lelea, Labuan, Kabupaten Donggala, Sulawesi Tengah 94352"
+367,367,App\Models\Office,7205090,7205,72,SDN 1 Labuan,-0.668038844,119.8317802,"Jl. Tupua No.083, Labuan Panimba, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+368,368,App\Models\Office,7205090,7205,72,SDN 4 Labuan,-0.661802031,119.8559375,"Mapane, Labuan Kungguma, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+369,369,App\Models\Office,7205090,7205,72,SDN 3 Labuan,-0.660864764,119.8176278,"8RQ9+J2J, Labuan Salumbone, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+370,370,App\Models\Office,7205090,7205,72,SDN 6 Labuan,-0.686191136,119.8363053,"Jl. Buteta No.279, Labuan Lelea, Labuan, Kabupaten Donggala, Sulawesi Tengah 94352"
+371,371,App\Models\Office,7205090,7205,72,SDN 5 Labuan,-0.642569894,119.8476105,"9R4X+W2R, Dusun Dalika, Labuan Toposo, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+372,372,App\Models\Office,7205090,7205,72,"SDN 7 Labuan ",-0.674532267,119.8276003,"8RGH+627, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+373,373,App\Models\Office,7205090,7205,72,SDN 13 Labuan,-0.610623112,119.8647834,"Jl. Karama No. 4 Sisere, Labuan Toposo, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+374,374,App\Models\Office,7205090,7205,72,SDN 8 Labuan,-0.658887864,119.8392476,"8RRQ+CMQ, Labuan Panimba, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+375,375,App\Models\Office,7205090,7205,72,SDN 10 Labuan,-0.66944725,119.8195129,"8RJ9+6Q9, Labuan Salumbone, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+376,376,App\Models\Office,7205090,7205,72,SDN 12 Labuan,-0.678181239,119.838752,"Jl. Ndatu, Labuan Lelea, Labuan, Kabupaten Donggala, Sulawesi Tengah 94352"
+377,377,App\Models\Office,7205090,7205,72,SDN 11 Labuan,-0.653496935,119.8659884,"Desa, Labuan Kungguma, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+378,378,App\Models\Office,7205090,7205,72,SDN 9 Labuan,,,
+379,379,App\Models\Office,7205090,7205,72,SMP Negeri 1 Labuan,-0.675025423,119.8327904,"8RFM+X2M, Labuan, Kabupaten Donggala, Sulawesi Tengah 94352"
+380,380,App\Models\Office,7205090,7205,72,SMP Negeri 2 Labuan,-0.657150859,119.8441364,"Jl. Kajaboya, Labuan Panimba, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+381,381,App\Models\Office,7205090,7205,72,Taman Kanak-Kanak (TK) Pembina Labuan,-0.671949627,119.8261862,"8RHG+695, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+382,382,App\Models\Office,7205090,7205,72,SMP Negeri 3 Labuan,-0.653232033,119.8676874,"Jl. Poe Anggo, Labuan Kungguma, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+383,383,App\Models\Office,7205090,7205,72,SMPN Satap 4 Labuan,-0.610877764,119.8644868,"Karama, Sisere, Labuan Toposo, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+384,384,App\Models\Office,7205101,7205,72,UPTD Kec. Sindue Tombusabora,,,
+385,385,App\Models\Office,7205101,7205,72,SDN 3 Sindue Tombusabora,,,
+386,386,App\Models\Office,7205101,7205,72,SDN 5 Sindue Tombusabora,-0.455747993,119.7628064,"Jl. Tolitoli - Palu, Kaliburu, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+387,387,App\Models\Office,7205101,7205,72,SDN 4 Sindue Tombusabora,,,
+388,388,App\Models\Office,7205101,7205,72,SDN 2 Sindue Tombusabora,-0.479871849,119.7645929,"Desa, Kaliburu, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+389,389,App\Models\Office,7205101,7205,72,SDN 7 Sindue Tombusabora,,,
+390,390,App\Models\Office,7205101,7205,72,SDN 1 Sindue Tombusabora,-0.413614151,119.7646636,"HQP7+94C, Batusuya, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+391,391,App\Models\Office,7205101,7205,72,SDN 6 Sindue Tombusabora,,,
+392,392,App\Models\Office,7205101,7205,72,SDN 9 Sindue Tombusabora,-0.49860551,119.766102,"GQ28+GCX, Tibo, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+393,393,App\Models\Office,7205101,7205,72,SDN 8 Sindue Tombusabora,-0.40008403,119.7654177,"HQX8+W4G, Batusuya Go'o, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+394,394,App\Models\Office,7205101,7205,72,SDN 10 Sindue Tombusabora,,,
+395,395,App\Models\Office,7205101,7205,72,SDN 11 Sindue Tombusabora,,,
+396,396,App\Models\Office,7205101,7205,72,SDN 12 Sindue Tombusabora,,,
+397,397,App\Models\Office,7205101,7205,72,SMP Negeri 1 Sindue Tombusabora,-0.497325671,119.7700676,"GQ29+W8C, Tibo, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+398,398,App\Models\Office,7205101,7205,72,SMP Negeri 2 Sindue Tombusabora,-0.403084948,119.767802,"HQW9+Q34, Batusuya Go'o, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+399,399,App\Models\Office,7205101,7205,72,SMPN Satap 3 Sindue Tombusabora,,,
+400,400,App\Models\Office,7205101,7205,72,SDN 13 Sindue Tombusabora,,,
+401,401,App\Models\Office,7205101,7205,72,SDN 15 Sindue Tombusabora,,,
+402,402,App\Models\Office,7205101,7205,72,SDN 14 Sindue Tombusabora,,,
+403,403,App\Models\Office,7205101,7205,72,SDN 16 Sindue Tombusabora,,,
+404,404,App\Models\Office,7205101,7205,72,TK Negeri Pembina Desa Tibo,,,
+405,405,App\Models\Office,7205101,7205,72,SMPN SATAP 4 Sindue Tombusabora,,,
+406,406,App\Models\Office,7205102,7205,72,UPTD Kec. Sindue Tobata,,,
+407,407,App\Models\Office,7205102,7205,72,SDN 8 Sindue Tobata,,,
+408,408,App\Models\Office,7205102,7205,72,SDN 1 Sindue Tobata,-0.363730335,119.7555892,"Jl. Tolitoli - Palu, Oti, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+409,409,App\Models\Office,7205102,7205,72,SDN 3 Sindue Tobata,-0.356141638,119.7616536,"JQV6+GH3, Alindau, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+410,410,App\Models\Office,7205102,7205,72,SDN 4 Sindue Tobata,-0.309296792,119.7750608,"MQRF+7X5, Sikara Tobata, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+411,411,App\Models\Office,7205102,7205,72,SDN 7 Sindue Tobata,-0.320373084,119.7816966,"MQHJ+RMM, Sikara Tobata, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+412,412,App\Models\Office,7205102,7205,72,SDN 5 Sindue Tobata,-0.371951691,119.7561063,"JQH4+59G, Oti, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94353"
+413,413,App\Models\Office,7205102,7205,72,SDN 2 Sindue Tobata,,,
+414,414,App\Models\Office,7205102,7205,72,SDN 6 Sindue Tobata,-0.351105933,119.7658528,"JQX8+G5G, Alindau, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+415,415,App\Models\Office,7205102,7205,72,SDN 9 Sindue Tobata,-0.367198966,119.794027,"Jalan Tanpa Nama, Sipeso, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94353"
+416,416,App\Models\Office,7205102,7205,72,SDN 10 Sindue Tobata,-0.290523972,119.7772557,"Jl. Tolitoli - Palu, Sikara Tobata, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+417,417,App\Models\Office,7205102,7205,72,SMP Negeri 1 Sindue Tobata,,,
+418,418,App\Models\Office,7205102,7205,72,SMP Negeri 2 Sindue Tobata,-0.305457362,119.7741109,"Sikara Tobata, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+419,419,App\Models\Office,7205102,7205,72,SDN 11 Sindue Tobata,,,
+420,420,App\Models\Office,7205102,7205,72,SDN 13 Sindue Tobata,,,
+421,421,App\Models\Office,7205102,7205,72,SDN 12 Sindue Tobata,,,
+422,422,App\Models\Office,7205102,7205,72,TK Negeri Pembina Desa Oti,,,
+423,423,App\Models\Office,7205102,7205,72,SMPN Satap 4 Sindue Tobata,,,
+424,424,App\Models\Office,7205102,7205,72,SMP Negeri 4 Sindue Tobata,,,
+425,425,App\Models\Office,7205102,7205,72,SMPN Satap 3 Sindue Tobata,,,
+426,426,App\Models\Office,7205100,7205,72,UPTD Kec. Sindue,,,
+427,427,App\Models\Office,7205100,7205,72,SDN 5 Sindue,,,
+428,428,App\Models\Office,7205100,7205,72,SDN 9 Sindue,,,
+429,429,App\Models\Office,7205100,7205,72,SDN 14 Sindue,,,
+430,430,App\Models\Office,7205100,7205,72,SDN 2 Sindue,-0.650056799,119.8273147,"8RXF+P6X, Lero Tatari, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+431,431,App\Models\Office,7205100,7205,72,SDN 7 Sindue,-0.625003046,119.8107281,"9RF6+X37, Lero, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+432,432,App\Models\Office,7205100,7205,72,SDN 1 Sindue,-0.583530318,119.794168,"CQ8V+HJ8, Masaingi, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+433,433,App\Models\Office,7205100,7205,72,SDN 6 Sindue,-0.599994427,119.7990234,"Jl.Tandiabe, Toaya, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+434,434,App\Models\Office,7205100,7205,72,SDN 4 Sindue,,,
+435,435,App\Models\Office,7205100,7205,72,SDN 8 Sindue,,,
+436,436,App\Models\Office,7205100,7205,72,SDN 3 Sindue,,,
+437,437,App\Models\Office,7205100,7205,72,SDN 10 Sindue,-0.543193975,119.7808969,"FQ4J+M8C, Enu, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+438,438,App\Models\Office,7205100,7205,72,SDN 11 Sindue,,,
+439,439,App\Models\Office,7205100,7205,72,SDN 13 Sindue,,,
+440,440,App\Models\Office,7205100,7205,72,SDN 22 Sindue,,,
+441,441,App\Models\Office,7205100,7205,72,SDN 12 Sindue,,,
+442,442,App\Models\Office,7205100,7205,72,SDN 15 Sindue,-0.648876401,119.8227233,"Jalan Tanpa Nama, Lero Tatari, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+443,443,App\Models\Office,7205100,7205,72,SDN 16 Sindue,-0.625074214,119.8120928,"9RF6+XQ9, Lero, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+444,444,App\Models\Office,7205100,7205,72,SDN 17 Sindue,,,
+445,445,App\Models\Office,7205100,7205,72,SDN 19 Sindue,-0.580934538,119.8489559,"Jalan Tanpa Nama, Taripa, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+446,446,App\Models\Office,7205100,7205,72,SDN 18 Sindue,,,
+447,447,App\Models\Office,7205100,7205,72,SDN 20 Sindue,,,
+448,448,App\Models\Office,7205100,7205,72,SDN 21 Sindue,,,
+449,449,App\Models\Office,7205100,7205,72,SMP Negeri 1 Sindue,-0.600531455,119.7955568,"9QXW+Q3J, Toaya, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+450,450,App\Models\Office,7205100,7205,72,SMP Negeri 2 Sindue,-0.638053132,119.8122556,"9R66+QQ9, Lero Tatari, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+451,451,App\Models\Office,7205100,7205,72,SMP Negeri 3 Sindue,-0.57971417,119.7930703,"CQCV+554, Marana, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+452,452,App\Models\Office,7205100,7205,72,SMP Negeri 4 Sindue,,,
+453,453,App\Models\Office,7205100,7205,72,SMP Negeri 5 Sindue,-0.648587425,119.8234107,"Jalan Tanpa Nama, Lero Tatari, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+454,454,App\Models\Office,7205100,7205,72,SDN 23 Sindue,,,
+455,455,App\Models\Office,7205100,7205,72,SDN 24 Sindue,,,
+456,456,App\Models\Office,7205100,7205,72,SDN 25 Sindue,-0.556490349,119.8552561,"CVV4+92X, Amal, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+457,457,App\Models\Office,7205100,7205,72,TK Pembina Toaya,-0.606210278,119.8092472,"9RV5+GM7, Toaya Vunta, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+458,458,App\Models\Office,7205100,7205,72,SLB Negeri Sindue,-0.645648425,119.8305952,"JL. Kapuk Indah, No. 47, Dalaka, Amal, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+459,459,App\Models\Office,7205100,7205,72,SKB SAKA PANDE DESA TOAYA,,,
+460,460,App\Models\Office,7205120,7205,72,UPTD Kec. Sirenja,-0.222843319,119.8077212,"Jl. Tolitoli - Palu, Balentuma, Sirenja, Kabupaten Donggala, Sulawesi Tengah"
+461,461,App\Models\Office,7205120,7205,72,SDN 8 Sirenja,-0.281673482,119.7796199,"PQ9H+8Q9, Ombo, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+462,462,App\Models\Office,7205120,7205,72,SDN 14 Sirenja,-0.232016388,119.8088236,"QR95+59M, Tanjung Padang, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+463,463,App\Models\Office,7205120,7205,72,SDN 3 Sirenja,-0.179687822,119.8163811,"Jl. Trans Sulawesi, Lende Tovea, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+464,464,App\Models\Office,7205120,7205,72,SDN 4 Sirenja,-0.265060638,119.7882707,"Jl. A. Zaman. No.5, Ujumbou, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+465,465,App\Models\Office,7205120,7205,72,SDN 11 Sirenja,-0.256888041,119.795208,"PQVW+63C, Tondo S, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+466,466,App\Models\Office,7205120,7205,72,SDN 12 Sirenja,-0.210280384,119.8102554,"QRQ6+V2H, Tompe, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+467,467,App\Models\Office,7205120,7205,72,SDN 6 Sirenja,-0.218782498,119.8090502,"QRJ5+FHX, Balentuma, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+468,468,App\Models\Office,7205120,7205,72,SDN 9 Sirenja,-0.237835176,119.8039515,"QR63+RHR, Dampal, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+469,469,App\Models\Office,7205120,7205,72,SDN 16 Sirenja,-0.23312971,119.8214592,"Jln. Protokol, Sipi, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+470,470,App\Models\Office,7205120,7205,72,SDN 10 Sirenja,-0.192366617,119.8193764,"Jl. Tolitoli - Palu, Lende Tovea, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+471,471,App\Models\Office,7205120,7205,72,SDN 15 Sirenja,-0.249671238,119.8187093,"QR29+3CM, Jono Oge, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+472,472,App\Models\Office,7205120,7205,72,SDN 18 Sirenja,-0.218526499,119.8351801,"Sibado, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+473,473,App\Models\Office,7205120,7205,72,SDN 23 Sirenja,-0.311349508,119.8733641,"MVQF+C7P, Ombo, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+474,474,App\Models\Office,7205120,7205,72,SDN 5 Sirenja,-0.234191601,119.8253334,"Jl. Kalakati No.4 Desa, Sipi, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+475,475,App\Models\Office,7205120,7205,72,SDN 1 Sirenja,-0.210901192,119.8103508,"QRQ6+J3Q, Tompe, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+476,476,App\Models\Office,7205120,7205,72,SDN 2 Sirenja,-0.232442389,119.804484,"Jl. Niaga, RT/RW 1/1, Dusun 1, Tj. Padang, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+477,477,App\Models\Office,7205120,7205,72,SDN 17 Sirenja,-0.26392381,119.7881925,"PQPQ+C6H, Tondo S, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+478,478,App\Models\Office,7205120,7205,72,SDN 19 Sirenja,-0.256929843,119.7966199,"Jl. Tolitoli - Palu No.27, Tondo S, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+479,479,App\Models\Office,7205120,7205,72,SDN 20 Sirenja,-0.258043085,119.816291,"PRR8+QGC, Tondo S, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+480,480,App\Models\Office,7205120,7205,72,SDN 7 Sirenja,-0.21585561,119.8295466,"QRMH+JRM, Sibado, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+481,481,App\Models\Office,7205120,7205,72,SDN 13 Sirenja,-0.185782971,119.8191829,"Jl. Tolitoli - Palu, Lende Tovea, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94355"
+482,482,App\Models\Office,7205120,7205,72,SDN 21 Sirenja,-0.149547256,119.8064695,"VR24+5HV, Lompio, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94355"
+483,483,App\Models\Office,7205120,7205,72,SDN 22 Sirenja,-0.174815532,119.8195469,"Jl. Tolitoli - Palu No.16, Lende, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94355"
+484,484,App\Models\Office,7205120,7205,72,SDN 25 Sirenja,-0.226783387,119.8276654,"QRFH+73F, Balentuma, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+485,485,App\Models\Office,7205120,7205,72,SDN 24 Sirenja,-0.198452089,119.8662324,"RV28+HFR, Lompio, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94355"
+486,486,App\Models\Office,7205120,7205,72,SMP Negeri 1 Sirenja,-0.223340524,119.8065736,"QRG4+JHV, Balentuma, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+487,487,App\Models\Office,7205120,7205,72,SMP Negeri 2 Sirenja,-0.255015426,119.7969452,"Tondo S, Sirenja, Kabupaten Donggala, Sulawesi Tengah"
+488,488,App\Models\Office,7205120,7205,72,SMP Negeri 3 Sirenja,-0.179000663,119.8172157,"RRC8+CRJ, Lende Tovea, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94355"
+489,489,App\Models\Office,7205120,7205,72,SMPN Satap 4 Sirenja,-0.311800516,119.8737113,"MVQF+7C6, Ombo, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+490,490,App\Models\Office,7205120,7205,72,TK Negeri Pembina Desa Balintuma,-0.219491007,119.8107762,"QRJ6+538, Balentuma, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+491,491,App\Models\Office,7205130,7205,72,UPTD Kec. Balaesang,-0.048698916,119.8794436,"XV2H+FQV, Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+492,492,App\Models\Office,7205130,7205,72,SDN 8 Balaesang,-0.040914296,119.8845463,"XV5M+HPG, Mapane Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+493,493,App\Models\Office,7205130,7205,72,SDN 9 Balaesang,-0.049762543,119.8794363,"XV2H+3PQ, Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+494,494,App\Models\Office,7205130,7205,72,SDN 14 Balaesang,-0.054284242,119.8881757,"Jl. Tambu - Parigi Moutong, Tovia Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+495,495,App\Models\Office,7205130,7205,72,SDN 20 Balaesang,-0.068027141,119.8586283,"WVJ5+P8M, Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah"
+496,496,App\Models\Office,7205130,7205,72,SDN 2 Balaesang,,,
+497,497,App\Models\Office,7205130,7205,72,SDN 10 Balaesang,0.10127103,119.8753124,"4V2F+GW9, Sibayu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94356"
+498,498,App\Models\Office,7205130,7205,72,SDN 17 Balaesang,,,
+499,499,App\Models\Office,7205130,7205,72,SDN 18 Balaesang,0.115257012,119.8879721,"Jl.Irigasi, Dusun 01, Desa Kampung Baru, Sibayu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94356"
+500,500,App\Models\Office,7205130,7205,72,SDN 25 Balaesang,,,
+501,501,App\Models\Office,7205130,7205,72,SDN 3 Balaesang,-0.122458877,119.833003,"VRHM+256, Labean, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+502,502,App\Models\Office,7205130,7205,72,SDN 13 Balaesang,-0.126633547,119.8309029,"VRFJ+88R, Labean, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+503,503,App\Models\Office,7205130,7205,72,SDN 23 Balaesang,-0.133640228,119.8291894,"VR8H+GJM, Labean, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+504,504,App\Models\Office,7205130,7205,72,SDN 24 Balaesang,,,
+505,505,App\Models\Office,7205130,7205,72,SDN 4 Balaesang,-0.014183892,119.8880627,"XVPQ+74X, Siweli, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+506,506,App\Models\Office,7205130,7205,72,SDN 12 Balaesang,-0.005787473,119.8895885,"XVVQ+MQ9, Siweli, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+507,507,App\Models\Office,7205130,7205,72,SDN 19 Balaesang,,,
+508,508,App\Models\Office,7205130,7205,72,SDN 22 Balaesang,-0.020526006,119.9036615,"Jl. Pendidikan PKMT, Siweli, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+509,509,App\Models\Office,7205130,7205,72,SDN 5 Balaesang,0.048574936,119.9047699,"2WX3+CV7, Sibualong, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+510,510,App\Models\Office,7205130,7205,72,SDN 11 Balaesang,0.049329997,119.8804997,"2VXJ+P35, Sibualong, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+511,511,App\Models\Office,7205130,7205,72,SDN 6 Balaesang,-0.10443186,119.850616,"VVW2+666, Meli, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+512,512,App\Models\Office,7205130,7205,72,SDN 15 Balaesang,-0.101647596,119.8497264,"VRXX+8VC, Pomolulu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+513,513,App\Models\Office,7205130,7205,72,SDN 21 Balaesang,-0.117308183,119.8430397,"VRMV+349, Pomolulu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+514,514,App\Models\Office,7205130,7205,72,SDN 7 Balaesang,-0.134073781,119.8121049,"Jalan Tanpa Nama, Lombonga, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+515,515,App\Models\Office,7205130,7205,72,SDN 16 Balaesang,-0.130903079,119.8077503,"VR95+J29, Lombonga, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+516,516,App\Models\Office,7205130,7205,72,SDN 26 Balaesang,,,
+517,517,App\Models\Office,7205130,7205,72,SDN 27 Balaesang,,,
+518,518,App\Models\Office,7205130,7205,72,SMP Negeri 1 Balaesang,-0.035971639,119.8858692,"XV7P+H6X, Mapane Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+519,519,App\Models\Office,7205130,7205,72,SMP Negeri 2 Balaesang,0.093085365,119.8734203,"3VVF+67F, Sibayu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94356"
+520,520,App\Models\Office,7205130,7205,72,SMP Negeri 3 Balaesang,-0.103944966,119.8509951,"Jl. Tolitoli - Palu, Meli, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+521,521,App\Models\Office,7205130,7205,72,SDN 1 Balaesang,,,
+522,522,App\Models\Office,7205130,7205,72,SMP Negeri Terbuka 1 Balaesang,,,
+523,523,App\Models\Office,7205130,7205,72,SMP Negeri Terbuka 2 Balaesang,,,
+524,524,App\Models\Office,7205130,7205,72,SMP Negeri 4 Balaesang,-0.129325154,119.8214578,"VRCC+687, Lombonga, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+525,525,App\Models\Office,7205130,7205,72,SMPN Satap 5 Balaesang,0.013231075,119.8857443,"Jl. Tolitoli - Palu, Siweli, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+526,526,App\Models\Office,7205130,7205,72,SDN 28 Balaesang,,,
+527,527,App\Models\Office,7205131,7205,72,SMPN Satap 6 Balaesang,,,
+528,528,App\Models\Office,7205131,7205,72,SDN 1 Balaesang Tanjung,-0.1220987,119.6865113,"Jalan Tanpa Nama, Malei, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+529,529,App\Models\Office,7205131,7205,72,SDN 7 Balaesang Tanjung,,,
+530,530,App\Models\Office,7205131,7205,72,SDN 11 Balaesang Tanjung,,,
+531,531,App\Models\Office,7205131,7205,72,SDN 2 Balaesang Tanjung,-0.045277712,119.7149841,"XP37+WW5, Rano B, Balaesang, Kabupaten Donggala, Sulawesi Tengah"
+532,532,App\Models\Office,7205131,7205,72,SDN 3 Balaesang Tanjung,,,
+533,533,App\Models\Office,7205131,7205,72,SDN 8 Balaesang Tanjung,-0.048518922,119.6316456,"XJ2J+GJG, Ketong, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+534,534,App\Models\Office,7205131,7205,72,SDN 9 Balaesang Tanjung,,,
+535,535,App\Models\Office,7205131,7205,72,SDN 13 Balaesang Tanjung,-0.021418847,119.6692976,"Jalan Tanpa Nama, Manimbaya, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+536,536,App\Models\Office,7205131,7205,72,SDN 14 Balaesang Tanjung,,,
+537,537,App\Models\Office,7205131,7205,72,SDN 15 Balaesang Tanjung,-0.058835902,119.6468227,"WJRW+FM4, Ketong, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+538,538,App\Models\Office,7205131,7205,72,SDN 4 Balaesang Tanjung,-0.075059166,119.7506943,"WQF2+X59, Pomolulu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+539,539,App\Models\Office,7205131,7205,72,SDN 16 Balaesang Tanjung,,,
+540,540,App\Models\Office,7205131,7205,72,SDN 6 Balaesang Tanjung,,,
+541,541,App\Models\Office,7205131,7205,72,SDN 5 Balaesang Tanjung,,,
+542,542,App\Models\Office,7205131,7205,72,SDN 12 Balaesang Tanjung,,,
+543,543,App\Models\Office,7205131,7205,72,SDN 10 Balaesang Tanjung,,,
+544,544,App\Models\Office,7205131,7205,72,SDN 17 Balaesang Tanjung,-0.108596993,119.7989142,"VQRX+GFW, Palau, Balaesang Tanjung, Donggala, Kabupaten Donggala, Sulawesi Tengah 94355"
+545,545,App\Models\Office,7205131,7205,72,SDN 18 Balaesang Tanjung,,,
+546,546,App\Models\Office,7205131,7205,72,SMPN 1 Balaesang Tanjung,-0.116743873,119.6822667,"VMMJ+7Q6, Malei, Balaesang Tanjung, Donggala, Kabupaten Donggala, Sulawesi Tengah 94355"
+547,547,App\Models\Office,7205131,7205,72,SDN 19 Balaesang Tanjung,,,
+548,548,App\Models\Office,7205131,7205,72,SDN 20 Balaesang Tanjung,,,
+549,549,App\Models\Office,7205131,7205,72,SMPN Satap 2 Balaesang Tanjung,-0.04975481,119.7368851,"Pomolulu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+550,550,App\Models\Office,7205131,7205,72,SMPN Satap 7 Balaesang Tanjung,-0.047724496,119.6303298,"XJ2J+V32, Ketong, Balaesang Tanjung, Donggala, Kabupaten Donggala, Sulawesi Tengah 94355"
+551,551,App\Models\Office,7205131,7205,72,SMPN Satap 5 Balaesang Tanjung,-0.016708687,119.6319616,"XJMJ+8Q2, Manimbaya, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+552,552,App\Models\Office,7205131,7205,72,SMPN 7 BALAESANG TANJUNG,-0.047821079,119.6305709,"XJ2J+V32, Ketong, Balaesang Tanjung, Donggala, Kabupaten Donggala, Sulawesi Tengah 94355"
+553,553,App\Models\Office,7205131,7205,72,SMPN Satap 3 Balaesang Tanjung,-0.132194281,119.7573174,"Jalan Tanpa Nama, Walandano, Balaesang Tanjung, Donggala, Kabupaten Donggala, Sulawesi Tengah 94355"
+554,554,App\Models\Office,7205131,7205,72,SMPN Satap 4 Balaesang Tanjung,,,
+555,555,App\Models\Office,7205131,7205,72,SMPN Satap 6 Balaesang Tanjung,-0.105767418,119.7669718,"VQV8+MQF, Palau, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+556,556,App\Models\Office,7205131,7205,72,UPTD Kec. Balaesang Tanjung,,,
+557,557,App\Models\Office,7205140,7205,72,UPTD Kec. Dampelas,0.233051252,119.9377091,"6V78+RCF, Sabang, Damsol, Kabupaten Donggala, Sulawesi Tengah"
+558,558,App\Models\Office,7205140,7205,72,SDN 2 Dampelas,0.140227932,119.8324682,"4RRJ+3W6, Kambayang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+559,559,App\Models\Office,7205140,7205,72,SDN 3 Dampelas,0.200682268,119.8560368,"6V24+793, Talaga, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+560,560,App\Models\Office,7205140,7205,72,SDN 1 Dampelas,,,
+561,561,App\Models\Office,7205140,7205,72,SDN 7 Dampelas,,,
+562,562,App\Models\Office,7205140,7205,72,SDN 4 Dampelas,,,
+563,563,App\Models\Office,7205140,7205,72,SDN 6 Dampelas,0.260249863,119.9010808,"Malonas, Damsol, Malonas, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+564,564,App\Models\Office,7205140,7205,72,SDN 5 Dampelas,,,
+565,565,App\Models\Office,7205140,7205,72,SDN 9 Dampelas,0.171138506,119.9308368,"5WCJ+C4H, Karyamukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+566,566,App\Models\Office,7205140,7205,72,SDN 8 Dampelas,0.215456776,119.8982498,"Jl. Tolitoli - Palu, Sioyong, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+567,567,App\Models\Office,7205140,7205,72,SDN 17 Dampelas,0.195504997,119.9128215,"5WW7+52Q, Sioyong, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+568,568,App\Models\Office,7205140,7205,72,SDN 10 Dampelas,0.174626527,119.9234555,"Sioyong, Damsol, Karyamukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+569,569,App\Models\Office,7205140,7205,72,SDN 11 Dampelas,0.136247393,119.8974356,"4VPW+FWQ, Budimukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+570,570,App\Models\Office,7205140,7205,72,SDN 12 Dampelas,,,
+571,571,App\Models\Office,7205140,7205,72,SDN 23 Dampelas,,,
+572,572,App\Models\Office,7205140,7205,72,SDN 18 Dampelas,0.151655411,119.9221546,"5W2C+JQJ, Parisan Agung, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+573,573,App\Models\Office,7205140,7205,72,SDN 33 Dampelas,0.167821158,119.9325811,"5W9J+4XM, Karyamukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+574,574,App\Models\Office,7205140,7205,72,SDN 15 Dampelas,,,
+575,575,App\Models\Office,7205140,7205,72,SDN 26 Dampelas,0.338328254,119.8960289,"8VQW+78F, Lemba Mukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+576,576,App\Models\Office,7205140,7205,72,SDN 13 Dampelas,0.383835617,119.882891,"9VMM+G46, Rerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+577,577,App\Models\Office,7205140,7205,72,SDN 14 Dampelas,0.20352156,119.8566332,"6V34+9JP, Talaga, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+578,578,App\Models\Office,7205140,7205,72,SDN 24 Dampelas,0.31926238,119.8614071,"8V96+MGM, Rerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+579,579,App\Models\Office,7205140,7205,72,SDN 20 Dampelas,0.227161203,119.9092403,"Jl. Tolitoli - Palu, Panii, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+580,580,App\Models\Office,7205140,7205,72,SDN 16 Dampelas,,,
+581,581,App\Models\Office,7205140,7205,72,SDN 22 Dampelas,0.225490102,119.9333687,"6WGM+58W, Panii, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+582,582,App\Models\Office,7205140,7205,72,SDN 21 Dampelas,0.159827749,119.9226814,"5W5F+W27, Karyamukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+583,583,App\Models\Office,7205140,7205,72,SDN 19 Dampelas,0.257856345,119.9341786,"7W5M+3JQ, Ponggerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+584,584,App\Models\Office,7205140,7205,72,SDN 27 Dampelas,,,
+585,585,App\Models\Office,7205140,7205,72,SDN 25 Dampelas,0.308387496,119.9001335,"Jalan Tanpa Nama, Rerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+586,586,App\Models\Office,7205140,7205,72,SDN 28 Dampelas,0.199084519,119.8939023,"Dusun VI, Sabang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+587,587,App\Models\Office,7205140,7205,72,SMP Negeri 1 Dampelas,0.215651615,119.8766131,"6V8G+6JQ, Malonas, Damsol, Kabupaten Donggala, Sulawesi Tengah"
+588,588,App\Models\Office,7205140,7205,72,SMP Negeri 2 Dampelas,0.167862242,119.9314045,"5W9J+4FQ, Karyamukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+589,589,App\Models\Office,7205140,7205,72,SMP Negeri 3 Dampelas,0.296379084,119.8732717,"7VWF+G7P, Rerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+590,590,App\Models\Office,7205140,7205,72,SMP Negeri 4 Dampelas,0.241333242,119.9029206,"6WR3+G5V, Ponggerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+591,591,App\Models\Office,7205140,7205,72,SMP Negeri 5 Dampelas,0.351217202,119.9103564,"9W26+F4M, Lemba Mukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+592,592,App\Models\Office,7205140,7205,72,SMP Negeri 6 Dampelas,0.13706779,119.8973595,"Budi Mukti, Damsol, Budimukti, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+593,593,App\Models\Office,7205140,7205,72,SD Inpres 1 Bayang,,,
+594,594,App\Models\Office,7205140,7205,72,SDN 29 Dampelas,,,
+595,595,App\Models\Office,7205140,7205,72,SMPN Satap 7 Dampelas,,,
+596,596,App\Models\Office,7205140,7205,72,SDN 30 Dampelas,0.184998596,119.908434,"5WM5+W6X, Sioyong, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+597,597,App\Models\Office,7205140,7205,72,SDN 32 Dampelas,0.139256202,119.9338981,"4WQM+MGF, Parisan Agung, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+598,598,App\Models\Office,7205140,7205,72,SDN 31 Dampelas,0.250054082,119.9174473,"Jalan Tanpa Nama, Ponggerang, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+599,599,App\Models\Office,7205140,7205,72,SMPN Satap 8 Dampelas,0.157431758,119.8474047,"5R4W+XW6, Talaga, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+600,600,App\Models\Office,7205140,7205,72,SDN 34 Dampelas,0.264870913,119.9241775,"7W7F+WHQ, Malonas, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+601,601,App\Models\Office,7205140,7205,72,SMPN Satap 9 Dampelas,,,
+602,602,App\Models\Office,7205140,7205,72,TK Negeri Pembina Desa Sabang,,,
+603,603,App\Models\Office,7205140,7205,72,SMP Negeri 7 Dampelas,0.268301584,119.9869362,"7X9P+26Q, Malonas, Damsol, Kabupaten Donggala, Sulawesi Tengah 94356"
+604,604,App\Models\Office,7205160,7205,72,UPTD Kec. Sojol,,,
+605,605,App\Models\Office,7205160,7205,72,SDN 26 Sojol,0.48458456,119.9071719,"FWM4+QRP, Pangalasiang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+606,606,App\Models\Office,7205160,7205,72,SDN 4 Sojol,,,
+607,607,App\Models\Office,7205160,7205,72,SDN 1 Sojol,,,
+608,608,App\Models\Office,7205160,7205,72,SDN 5 Sojol,,,
+609,609,App\Models\Office,7205160,7205,72,SDN 3 Sojol,,,
+610,610,App\Models\Office,7205160,7205,72,SDN 2 Sojol,,,
+611,611,App\Models\Office,7205160,7205,72,SDN 18 Sojol,0.634909776,120.0324987,"J2MJ+XX4, Bou, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+612,612,App\Models\Office,7205160,7205,72,SDN 6 Sojol,,,
+613,613,App\Models\Office,7205160,7205,72,SDN 14 Sojol,,,
+614,614,App\Models\Office,7205160,7205,72,SDN 27 Sojol,0.481172181,119.9983079,"FXJX+C7G, Tonggolobibi, Sojol, Kabupaten Donggala, Sulawesi Tengah"
+615,615,App\Models\Office,7205160,7205,72,SDN 7 Sojol,0.461161929,120.0173422,"Jalan Tanpa Nama, Siboang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+616,616,App\Models\Office,7205160,7205,72,SDN 28 Sojol,0.476024187,119.9287211,"FWGH+CF4, Pangalasiang, Sojol, Kabupaten Donggala, Sulawesi Tengah"
+617,617,App\Models\Office,7205160,7205,72,SDN 9 Sojol,0.492650664,120.0264707,"F2VG+3H3, Siboang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+618,618,App\Models\Office,7205160,7205,72,SDN 10 Sojol,0.451618488,119.9709157,"Desa Tonggolobibi, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+619,619,App\Models\Office,7205160,7205,72,SDN 8 Sojol,,,
+620,620,App\Models\Office,7205160,7205,72,SDN 11 Sojol,,,
+621,621,App\Models\Office,7205160,7205,72,SD Negeri Balukang,0.581730984,120.0372151,"H2JP+MVG, Balukang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+622,622,App\Models\Office,7205160,7205,72,SDN 12 Sojol,0.443929784,119.9950578,"CXVV+GV7, Tonggolobibi, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+623,623,App\Models\Office,7205160,7205,72,SDN 13 Sojol,,,
+624,624,App\Models\Office,7205160,7205,72,SDN 15 Sojol,0.433548257,119.9965735,"CXMW+CJ, Samalili, Sojol, Kabupaten Donggala, Sulawesi Tengah"
+625,625,App\Models\Office,7205160,7205,72,SDN 16 Sojol,0.445967566,120.0192781,"C2W9+9PJ, Samalili, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+626,626,App\Models\Office,7205160,7205,72,SDN 21 Sojol,,,
+627,627,App\Models\Office,7205160,7205,72,SDN 22 Sojol,0.451238114,119.9301289,"FW2J+F3C, Bukit Harapan, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+628,628,App\Models\Office,7205160,7205,72,SDN 19 Sojol,0.516203377,119.8633535,"GV87+F8C, Pangalasiang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+629,629,App\Models\Office,7205160,7205,72,SDN 23 Sojol,,,
+630,630,App\Models\Office,7205160,7205,72,SDN 17 Sojol,0.437959558,119.9024689,"CWQ2+5XF, Pangalasiang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+631,631,App\Models\Office,7205160,7205,72,SDN 20 Sojol,,,
+632,632,App\Models\Office,7205160,7205,72,SDN 24 Sojol,0.478573674,120.0554467,"F3H4+C5C, Siboang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+633,633,App\Models\Office,7205160,7205,72,SDN 25 Sojol,0.438588791,120.0896648,"C3QQ+CVJ, DUSUN SIPATOR, Siboang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+634,634,App\Models\Office,7205160,7205,72,SMP Negeri 1 Sojol,0.496774304,120.0341981,"F2WM+MMR, Siboang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+635,635,App\Models\Office,7205160,7205,72,SMP Negeri 2 Sojol,0.608996767,120.0393352,"J25Q+HJ9, Balukang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+636,636,App\Models\Office,7205160,7205,72,SMP Negeri 3 Sojol,0.460920847,119.9054375,"FW64+837, Pangalasiang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+637,637,App\Models\Office,7205160,7205,72,SMP Negeri 4 Sojol,0.445574655,119.996692,"CXWW+6J4, Tonggolobibi, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+638,638,App\Models\Office,7205160,7205,72,SMP Negeri 5 Sojol,0.542553994,120.05756,"G3R4+XXR, Siwalempu, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+639,639,App\Models\Office,7205160,7205,72,SMPN Satap 6 Sojol,,,
+640,640,App\Models\Office,7205160,7205,72,SMPN SATAP 7 SOJOL,,,
+641,641,App\Models\Office,7205160,7205,72,SMPN 8 SOJOL,,,
+642,642,App\Models\Office,7205160,7205,72,SMPN 9 SOJOL,,,
+643,643,App\Models\Office,7205160,7205,72,SMPN 10 SOJOL,,,
+644,644,App\Models\Office,7205160,7205,72,TK Negeri Pembina Tonggolobibi,,,
+645,645,App\Models\Office,7205160,7205,72,SMPN Satap 10 Sojol,,,
+646,646,App\Models\Office,7205160,7205,72,SMP Negeri 6 Sojol,,,
+647,647,App\Models\Office,7205160,7205,72,SMPN Satap 9 Sojol,,,
+648,648,App\Models\Office,7205161,7205,72,UPTD Kec. Sojol Utara,,,
+649,649,App\Models\Office,7205161,7205,72,SD SMP Satu Atap Negeri 7 Sojol Utara,,,
+650,650,App\Models\Office,7205161,7205,72,SDN 1 Sojol Utara,,,
+651,651,App\Models\Office,7205161,7205,72,SDN 3 Sojol Utara,,,
+652,652,App\Models\Office,7205161,7205,72,SDN 4 Sojol Utara,0.711309787,120.1633942,"Desa Matugang No.77, Ogoamas I, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+653,653,App\Models\Office,7205161,7205,72,SDN 6 Sojol Utara,,,
+654,654,App\Models\Office,7205161,7205,72,SDN 7 Sojol Utara,0.721581096,120.1442466,"P4CV+JH4, Ogoamas I, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+655,655,App\Models\Office,7205161,7205,72,SDN 8 Sojol Utara,,,
+656,656,App\Models\Office,7205161,7205,72,SDN 5 Sojol Utara,0.711342026,120.0551601,"Jl. Tolitoli - Palu No.5, Pesik, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+657,657,App\Models\Office,7205161,7205,72,SMPN Satap 2 Sojol Utara,,,
+658,658,App\Models\Office,7205161,7205,72,SMPN Satap 3 Sojol Utara,0.731062895,120.1355439,"Jl. Gn. Sojol, Bengkolli, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+659,659,App\Models\Office,7205161,7205,72,SMP Negeri 1 Sojol Utara,0.738936739,120.1225076,"Jl. Pendidikan, Ogoamas II, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah"
+660,660,App\Models\Office,7205161,7205,72,SDN 2 Sojol Utara,0.742392508,120.1365083,"Jl. Labulan, Ogoamas I, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah"
+661,661,App\Models\Office,7205161,7205,72,SMP Negeri 2 Sojol Utara,,,
+662,662,App\Models\Office,7205080,7205,72,Dinas Pemuda dan Olahraga,-0.675917126,119.7482572,"Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+663,663,App\Models\Office,7205080,7205,72,Dinas Pemberdayaan Masyarakat dan Desa,-0.674703438,119.7492867,"8PGX+29Q, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+664,664,App\Models\Office,7205080,7205,72,Dinas Sosial,-0.68046632,119.7547054,"Jl. Eboni, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+665,665,App\Models\Office,7205080,7205,72,Badan Penanggulangan Bencana Daerah,-0.680001925,119.7547813,"Jl. Eboni, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+666,666,App\Models\Office,7205080,7205,72,Dinas Pemberdayaan Perempuan dan Perlindungan Anak,-0.674909815,119.7491769,"Jl. Jati, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+667,667,App\Models\Office,7205080,7205,72,Dinas Tenaga Kerja dan Transmigrasi,-0.676033669,119.7508473,"Jl. Jati, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+668,668,App\Models\Office,7205080,7205,72,"Dinas Tanaman Pangan, Hortikultura dan Perkebunan",-0.680413654,119.7566093,"8Q94+RG5, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+669,669,App\Models\Office,7205080,7205,72,Dinas Peternakan dan Kesehatan Hewan,-0.681013331,119.7583903,"Jl. Eboni, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+670,670,App\Models\Office,7205080,7205,72,Dinas Perikanan,-0.675932947,119.7513143,"8QF2+JF5, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+671,671,App\Models\Office,7205080,7205,72,Dinas Ketahanan Pangan,-0.679462506,119.755037,"Jl. Eboni, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+672,672,App\Models\Office,7205080,7205,72,"Badan Pelaksana Penyuluhan Pertanian, Perikanan dan Kehutanan ",-0.678883143,119.7545279,"8QC3+9QX, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+673,673,App\Models\Office,7205080,7205,72,Dinas Perindustrian dan Perdagangan,-0.677556167,119.7496526,"Jl. Pangeran Limboro, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+674,674,App\Models\Office,7205080,7205,72,"Dinas Koperasi, Usaha Mikro Kecil dan Menengah",-0.678485869,119.7498464,"8PCX+HVW, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+675,675,App\Models\Office,7205080,7205,72,Badan Pengelolaan Keuangan dan Aset Daerah,-0.678349081,119.7521654,"8QC2+JRQ, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+676,676,App\Models\Office,7205080,7205,72,Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu,-0.676377148,119.7512185,"8QF2+CFF, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+677,677,App\Models\Office,7205080,7205,72,Badan Pendapatan Daerah,-0.675682376,119.7515588,"Jl. Jati, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+678,678,App\Models\Office,7205080,7205,72,Inspektorat,-0.677837293,119.7506902,"Jl. Eboni, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+679,679,App\Models\Office,7205080,7205,72,Badan Perencanaan Pembangunan Daerah,-0.676883922,119.7513979,"8QF2+58C, Gunung Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+680,680,App\Models\Office,7205080,7205,72,Badan Penelitian dan Pengembangan,-0.678883143,119.7545279,"8QC3+9QX, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+681,681,App\Models\Office,7205080,7205,72,Dinas Lingkungan Hidup Daerah,-0.678691839,119.7555804,"Jl. Jati No.3 Kel, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+682,682,App\Models\Office,7205080,7205,72,Dinas Pariwisata,-0.675314877,119.7499785,"8PFX+RWW, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+683,683,App\Models\Office,7205080,7205,72,Badan Kesatuan Bangsa dan Politik,-0.674080004,119.7487958,"Jl. Jati Kelurahan No.1, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+684,684,App\Models\Office,7205080,7205,72,Kantor Satuan Polisi Pamong Praja,-0.679709811,119.7538522,"Jl. Eboni, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+685,685,App\Models\Office,7205080,7205,72,"Badan Kepegawaian, Pendidikan dan Pelatihan Daerah",-0.681291794,119.7563328,"Jl. Eboni No.3, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+686,686,App\Models\Office,7205080,7205,72,Dinas Perpustakaan,-0.679036643,119.7548132,"8QC3+9JC, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+687,687,App\Models\Office,7205080,7205,72,Dinas Kearsipan,-0.678981158,119.7543266,"8QC3+9JC, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+688,688,App\Models\Office,7205080,7205,72,Kantor Kecamatan Banawa,-0.674995525,119.751897,"8PFX+RP6, Gn. Bale, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+689,689,App\Models\Office,7205080,7205,72,Kantor Kelurahan Ganti,-0.706494238,119.7290699,"7PVH+9H7, Ganti, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+690,690,App\Models\Office,7205080,7205,72,Kantor Kelurahan Tanjung Batu,-0.669738968,119.7448811,"8PJV+3WW, Tanjung Batu, Banawa, Kabupaten Donggala, Sulawesi Tengah"
+691,691,App\Models\Office,7205080,7205,72,Kantor Kelurahan Gunung Bale,,,
+692,692,App\Models\Office,7205080,7205,72,Kantor Kelurahan Boneoge,-0.66284973,119.7238736,"8PPF+VG5, Boneoge, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+693,693,App\Models\Office,7205080,7205,72,Kantor Kelurahan Maleni,-0.677825838,119.7377221,"8PCQ+V3G, Maleni, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+694,694,App\Models\Office,7205080,7205,72,Kantor Kelurahan Kabonga Kecil,-0.69122603,119.7579517,"8Q55+F5R, Kabonga Kecil, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+695,695,App\Models\Office,7205080,7205,72,Kantor Kelurahan Boya,-0.670247903,119.741936,"Jl. Pelabuhan No.65 B, Boya, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+696,696,App\Models\Office,7205080,7205,72,Kantor Kelurahan Labuan Bajo,-0.665712001,119.7404828,"8PMR+P54, Labuan Bajo, Banawa, Kabupaten Donggala, Sulawesi Tengah"
+697,697,App\Models\Office,7205080,7205,72,Kantor Kelurahan Kabonga Besar,-0.707183629,119.763567,"7QV7+4CC, Kabonga Besar, Banawa, Kabupaten Donggala, Sulawesi Tengah 94351"
+698,698,App\Models\Office,7205082,7205,72,Kantor Kecamatan Banawa Tengah,-0.717375608,119.7097172,"7PJ3+F96, Limboro, Banawa Tengah, Kabupaten Donggala, Sulawesi Tengah 94351"
+699,699,App\Models\Office,7205081,7205,72,Kantor Kecamatan Banawa Selatan,-0.868635284,119.5850898,"4HGP+RQW, Watatu, Banawa Sel., Kabupaten Donggala, Sulawesi Tengah 94351"
+700,700,App\Models\Office,7205041,7205,72,Kantor Kecamatan Riopakava,-1.29527689,119.5525551,"PH32+VV4, Lalundu, Rio Pakava, Kabupaten Donggala, Sulawesi Tengah 94362"
+701,701,App\Models\Office,7205051,7205,72,Kantor Kecamatan Pinembani,-1.07064366,119.702899,"WPH2+MP5, Gimpubia, Pinembani, Kabupaten Donggala, Sulawesi Tengah 94362"
+702,702,App\Models\Office,7205090,7205,72,Kantor Kecamatan Labuan,-0.672021552,119.8269806,"Jl. Rapaundja No.2, Labuan, Kabupaten Donggala, Sulawesi Tengah 94353"
+703,703,App\Models\Office,7205091,7205,72,Kantor Kecamatan Tanantovea,-0.691924379,119.847349,"Wani, Pantoloan, Tanantovea, Kabupaten Donggala, Sulawesi Tengah"
+704,704,App\Models\Office,7205100,7205,72,Kantor Kecamatan Sindue,-0.598941896,119.8218818,"9QWX+6C6, Toaya, Sindue, Kabupaten Donggala, Sulawesi Tengah 94353"
+705,705,App\Models\Office,7205102,7205,72,Kantor Kecamatan Sindue Tobata,-0.330407386,119.7861001,"MQ67+VWP, Alindau, Sindue Tobata, Kabupaten Donggala, Sulawesi Tengah 94354"
+706,706,App\Models\Office,7205101,7205,72,Kantor Kecamatan Sindue Tombusabora,-0.493969802,119.7694001,"GQ49+9H3, Tibo, Sindue Tombusabora, Kabupaten Donggala, Sulawesi Tengah 94353"
+707,707,App\Models\Office,7205120,7205,72,Kantor Kecamatan Sirenja,-0.210333625,119.8114345,"Jl. Tolitoli - Palu, Tompe, Sirenja, Kabupaten Donggala, Sulawesi Tengah 94354"
+708,708,App\Models\Office,7205130,7205,72,Kantor Kecamatan Balaesang,-0.049798976,119.8804619,"XV2J+35J, Tambu, Balaesang, Kabupaten Donggala, Sulawesi Tengah 94355"
+709,709,App\Models\Office,7205140,7205,72,Kantor Kecamatan Dampelas,0.214671443,119.8666839,"6V78+RJX, Malonas, Damsol, Kabupaten Donggala, Sulawesi Tengah"
+710,710,App\Models\Office,7205160,7205,72,Kantor Kecamatan Sojol,0.582505366,120.0461355,"H2JR+WR9, Balukang, Sojol, Kabupaten Donggala, Sulawesi Tengah 94356"
+711,711,App\Models\Office,7205161,7205,72,Kantor Kecamatan Sojol Utara,0.741097955,120.1025966,"P4R2+9W4, Ogoamas II, Sojol Utara, Kabupaten Donggala, Sulawesi Tengah 94356"
+712,712,App\Models\Office,7205131,7205,72,Kantor Kecamatan Balaesang Tanjung,-0.119300863,119.7023659,"Jl, Malei, Balaesang Tanjung, Donggala, Kabupaten Donggala, Sulawesi Tengah 94355"

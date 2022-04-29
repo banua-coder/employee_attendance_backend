@@ -2,9 +2,8 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
+use Illuminate\Database\Seeder;
 
 class PositionSeeder extends Seeder
 {
@@ -17,7 +16,7 @@ class PositionSeeder extends Seeder
     {
         $filename = Str::plural(Str::replace('_seeder', '', Str::snake('PositionSeeder')));
 
-        if (!\file_exists(database_path("csvs/$filename.csv"))) {
+        if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
             return;
         }
@@ -31,7 +30,6 @@ class PositionSeeder extends Seeder
             $row = \array_combine($keys, $row);
             $positions[] = $row;
         }
-
 
         $idColumns = ['id'];
 

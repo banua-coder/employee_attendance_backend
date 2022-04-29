@@ -3,10 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Holiday;
-use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class HolidaySeeder extends Seeder
 {

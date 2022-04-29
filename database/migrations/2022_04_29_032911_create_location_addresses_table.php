@@ -22,9 +22,9 @@ return new class extends Migration
             $table->char('regency_id', 4)->nullable();
             $table->char('district_id', 7)->nullable();
             $table->char('village_id', 10)->nullable();
-            $table->decimal('latitude', 10, 8);
-            $table->decimal('longitude', 11, 8);
-
+            $table->decimal('latitude', 10, 8)->nullable()->default(0);
+            $table->decimal('longitude', 11, 8)->nullable()->default(0);
+            $table->text('address')->nullable();
             $table->index('location_addressable_id');
             $table->index('location_addressable_type');
             $table->foreign('province_id')

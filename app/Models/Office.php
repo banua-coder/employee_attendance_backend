@@ -5,18 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Department extends Model
+class Office extends Model
 {
     use HasFactory;
 
     protected $guarded = [];
 
     // Relationships
-
-    public function locationAddress()
-    {
-        return $this->morphOne(LocationAddress::class, 'location_addressable');
-    }
 
     // Scopes
 

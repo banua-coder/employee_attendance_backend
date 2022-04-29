@@ -49,7 +49,6 @@ class GenerateHolidayCommand extends Command
             return Command::FAILURE;
         }
 
-
         if ($isSeeder) {
             $country = config('app.locale');
         } else {
@@ -70,12 +69,12 @@ class GenerateHolidayCommand extends Command
                 'year' => $year,
             ],
             [
-                'year' => ['numeric', 'integer', 'max:' . now()->year],
+                'year' => ['numeric', 'integer', 'max:'.now()->year],
             ]
         );
 
         if ($validator->fails()) {
-            $this->error('Year must be less than or equal to ' . now()->year . '!');
+            $this->error('Year must be less than or equal to '.now()->year.'!');
 
             return Command::FAILURE;
         }
@@ -97,7 +96,7 @@ class GenerateHolidayCommand extends Command
 
         $this->generateHolidays($year, $country);
 
-        $this->info('Holidays for ' . $year . ' has been generated!');
+        $this->info('Holidays for '.$year.' has been generated!');
 
         return Command::SUCCESS;
     }
@@ -114,11 +113,11 @@ class GenerateHolidayCommand extends Command
         //     ['national']
         // );
 
-        $local_data = Http::get('https://api-harilibur.vercel.app/api?year=' . $year);
+        $local_data = Http::get('https://api-harilibur.vercel.app/api?year='.$year);
 
         $data = $local_data->json();
 
-        if (!$data) {
+        if (! $data) {
             $this->error('Something went wrong, please try again!');
 
             return Command::FAILURE;

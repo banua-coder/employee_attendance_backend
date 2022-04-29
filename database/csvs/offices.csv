@@ -1,0 +1,713 @@
+id,name
+1,Sekretariat DPRD
+2,Bupati Donggala
+3,Wakil Bupati Donggala
+4,Sekretariat Daerah
+5,Bagian Administrasi Pemerintahan Umum
+6,Bagian Hubungan Masyarakat
+7,Bagian Administrasi Kesejahteraan Rakyat dan Kemasyarakatan
+8,Bagian Administrasi Perekonomian
+9,Bagian Administrasi Pembangunan dan Sumber Daya Alam
+10,Bagian Organisasi
+11,Bagian Hukum dan Perundang-undangan
+12,Bagian Perlengkapan Dan Umum
+13,Bagian Layanan Pengadaan Barang dan Jasa
+14,Dinas Pekerjaan Umum
+15,"Dinas Perumahan, Kawasan Permukiman dan Pertanahan"
+16,Dinas Perhubungan
+17,Dinas Komunikasi dan Informatika
+18,Dinas Kesehatan
+19,Puskesmas Donggala
+20,Pustu Loli Tasiburi
+21,Pustu Kabonga Besar
+22,Pustu Bone Oge
+23,Pustu Lumbudolo
+24,Pustu Limboro
+25,Polindes Loli Oge
+26,Polindes Loli Tasiburi
+27,Poskedes Kabonga Kecil
+28,Poskedes Ganti
+29,Poskedes Powelua
+30,Poskedes Salubomba
+31,Poskesdes Loli Saluran
+32,Pustu Loli Dondo
+33,Pustu Powelua
+34,Pustu Towale
+35,Poskesdes Kola-Kola
+36,Poskesdes Lumbudolo
+37,Polindes Salu bomba
+38,Puskesmas Delatope
+39,Puskesmas Lembasada
+40,Pustu Mbuwu
+41,Pustu Watatu
+42,Pustu Lalombi
+43,Pustu Bambarini
+44,Pustu Tosale
+45,Poskedes Salungkaenu
+46,Poskedes Lino
+47,Poskedes Salumpaku
+48,Poskedes Tanah Mea
+49,Poskedes Lumbumamara
+50,Poskedes Lumbutarombo
+51,Poskesdes Watatu
+52,Pustu Lumbumamara
+53,Pustu Surumana
+54,Pustu Tanampulu
+55,Poskesdes Tolongano
+56,Puskesmas Lalundu
+57,Pustu Minti Makmur
+58,Pustu Polanto Jaya
+59,Pustu Polando Jaya
+60,Pustu Rio Mukti
+61,Pustu Panca Mukti
+62,Pustu Lalundu
+63,Pustu Bonemarawa
+64,Pustu Towiora
+65,Pustu Pakava
+66,Poskesdes Minti Makmur
+67,Polindes Rio Mukti
+68,Polindes Panca Mukti
+69,Polindes Lalundu Utama
+70,Polindes Bonemarawa
+71,Poskesdes Ngowi
+72,Poskedes Tinauka
+73,Poskesdes Pantolebete
+74,Puskesmas Lalundu Despot
+75,Puskesmas Pinembani
+76,Pustu Palintuma
+77,Pustu Tamado
+78,Polindes Gimpubia
+79,Polindes Dangara'a
+80,Puskesmas Wani
+81,Pustu Wombo Induk
+82,Pustu Nupabomba
+83,Pustu Kebun Kopi
+84,Pustu Guntarano
+85,Poskedes Wani II
+86,Poskedes Wombo Kalonggo
+87,Polindes Wani II
+88,Poskesdes Bale
+89,Puskesmas Labuan
+90,Pustu Anutamboto
+91,Pustu Anutaporo
+92,Polindes Labuan Lelea
+93,Polindes Labuan Induk
+94,Polindes Labuan Panimba
+95,Poskedes Toposo
+96,Poskedes Salumbone
+97,Polindes Kungguma
+98,Puskesmas Alindau
+99,Puskesmas Batusuya
+100,Pustu Saloya
+101,Pustu Tibo
+102,Pustu Tamarenja
+103,Pustu Oti
+104,Pustu Sikara
+105,Polindes Kaliburu
+106,Polindes Tamarenja
+107,Polindes Oti
+108,Polindes Alindau
+109,Puskesmas Toaya
+110,Pustu Dalaka
+111,Pustu Sumari
+112,Polindes Lero Tatari
+113,Poskedes Masaingi
+114,Poskedes Marana
+115,Polindes Enu
+116,Poskedes Kumbasa
+117,Poskedes Taripa
+118,Pustu Lero
+119,Puskesmas Tompe
+120,Pustu Lende
+121,Pustu Tanjung Padang
+122,Pustu Sipi
+123,Pustu Tondo
+124,Pustu Ombo
+125,Poskedes Ujumbou
+126,Polindes Ombo
+127,Polindes Jono Oge
+128,Polindes Dampal
+129,Polindes Sibado
+130,Polindes Lompio
+131,Poskesdes Sibadu
+132,poskesdes jono Oge
+133,Poskesdes jondo Sirenja
+134,Poskesdes Lende Ntovea
+135,Poskesdes Tondo
+136,Puskesmas Tambu
+137,Pustu Labean
+138,Pustu Siweli
+139,Pustu Sibualong
+140,Pustu Sibayu
+141,Pustu Tovea Tambu
+142,Polindes Malino
+143,Puskesmas Malei
+144,Pustu Malei
+145,Pustu Ketong
+146,Pustu Rano
+147,Pustu Pomolulu
+148,Poskedes Kamonji
+149,Polindes Walandano
+150,Polindes Ketong
+151,Poskedes Manimbaya
+152,Puskesmas Sabang
+153,Pustu Kambayang
+154,Pustu Talaga
+155,Pustu Sioyong
+156,Pustu Karya Mukti
+157,Pustu Budi Mukti
+158,Pustu Panii
+159,Pustu Ponggerang
+160,Pustu Malonas
+161,Pustu Rerang
+162,Pustu Lembah Mukti
+163,Pustu Parisan Agung
+164,Poskedes Simantomo
+165,Polindes Karya Mukti
+166,Polindes Malonas
+167,Polindes Lambah Mukti
+168,Puskesmas Balukang
+169,Pustu Bou
+170,Pustu Siwalempu
+171,Pustu Siboang
+172,Pustu Samalili
+173,Pustu Tonggolobibi
+174,Pustu Bukit Harapan
+175,Pustu Ou
+176,Polindes Maputi
+177,Pustu Pangalaseang
+178,Puskemas Tonggolobibi
+179,Puskesmas Ogoamas
+180,Pustu Ogoamasa II
+181,Pustu Lenju
+182,Pustu Pesik
+183,Rumah Sakit Umum Daerah Tambu
+184,Badan Rumah Sakit Umum Daerah Kabelota
+185,Dinas Pengendalian Penduduk dan Keluarga Berencana
+186,Dinas Pendidikan dan Kebudayaan
+187,UPTD Kec. Banawa
+188,SDN 1 Banawa
+189,SDN 6 Banawa
+190,SDN 4 Banawa
+191,SDN 9 Banawa
+192,SDN 5 Banawa
+193,SDN 13 Banawa
+194,SDN 7 Banawa
+195,SDN 3 Banawa
+196,SDN 10 Banawa
+197,SDN 2 Banawa
+198,SDN 8 Banawa
+199,SDN 14 Banawa
+200,SDN 17 Banawa
+201,SDN 22 Banawa
+202,SDN 15 Banawa
+203,SDN 16 Banawa
+204,SDN 11 Banawa
+205,SDN 12 Banawa
+206,SDN 19 Banawa
+207,SDN 20 Banawa
+208,SDN 26 Banawa
+209,SDN 18 Banawa
+210,SDN 23 Banawa
+211,SDN 24 Banawa
+212,SDN 25 Banawa
+213,SMP Negeri 1 Banawa
+214,SMP Negeri 2 Banawa
+215,SMP Negeri 3 Banawa
+216,SMP Negeri 4 Banawa
+217,SMP Negeri 5 Banawa
+218,SMP Negeri 6 Banawa
+219,SDN 21 Banawa
+220,Sanggar Kegiatan Belajar (SKB) Mavali Banawa
+221,SMPN Satap 4 Banawa
+222,SDN 5 Banawa Tengah
+223,SDN 4 Banawa Tengah
+224,SDN 7 Banawa Tengah
+225,SDN 2 Banawa Tengah
+226,SDN 6 Banawa Tengah
+227,SDN 10 Banawa Tengah
+228,SDN 1 Banawa Tengah
+229,SDN 3 Banawa Tengah
+230,SDN 8 Banawa Tengah
+231,SDN 9 Banawa Tengah
+232,SMP Negeri 1 Banawa Tengah
+233,SMP Negeri 2 Banawa Tengah
+234,UPTD Kec. Banawa Tengah
+235,SMPN Satap 3 Banawa Tengah
+236,SDN 12 Banawa Tengah
+237,SDN 11 Banawa Tengah
+238,SDN 13 Banawa Tengah
+239,SMPN SATAP 4 BANAWA TENGAH
+240,UPTD Kec. Banawa Selatan
+241,SDN 2 Banawa Selatan
+242,SDN 1 Banawa Selatan
+243,SD Negeri Tanahmea
+244,SDN 4 Banawa Selatan
+245,SDN 6 Banawa Selatan
+246,SDN 3 Banawa Selatan
+247,SDN 8 Banawa Selatan
+248,SDN 17 Banawa Selatan
+249,SDN 13 Banawa Selatan
+250,SDN 27 Banawa Selatan
+251,SDN 18 Banawa Selatan
+252,SDN 19 Banawa Selatan
+253,SDN 16 Banawa Selatan
+254,SDN 15 Banawa Selatan
+255,SDN 14 Banawa Selatan
+256,SDN 20 Banawa Selatan
+257,SDN 23 Banawa Selatan
+258,SDN 28 Banawa Selatan
+259,SDN 24 Banawa Selatan
+260,SDN 10 Banawa Selatan
+261,SDN 9 Banawa Selatan
+262,SDN 7 Banawa Selatan
+263,SDN 12 Banawa Selatan
+264,SDN 29 Banawa Selatan
+265,SDN 5 Banawa Selatan
+266,SMP Negeri 1 Banawa Selatan
+267,SMP Negeri 2 Banawa Selatan
+268,SDN 25 Banawa Selatan
+269,SDN 11 Banawa Selatan
+270,SDN 21 Banawa Selatan
+271,SMPN Satap 3 Banawa Selatan
+272,SDN 22 Banawa Selatan
+273,SMP Negeri 5 Banawa Selatan
+274,SMPN Satap 5 Banawa Selatan
+275,SMPN Satap 6 Banawa Selatan
+276,SDN 3 Lumbumamara
+277,SMPN Satap 8 Banawa Selatan
+278,SDN 32 Banawa Selatan
+279,SDN 30 Banawa Selatan
+280,SDN 33 Banawa Selatan
+281,SDN 31 Banawa Selatan
+282,SDN 26 Banawa Selatan
+283,TK Negeri Pembina Desa Watatu
+284,SMPN Satap 4 Banawa Selatan
+285,SDN 34 Banawa Selatan
+286,SDN 35 Banawa Selatan
+287,SMPN Satap 7 Banawa Selatan
+288,SMPN Satap 9 Banawa Selatan
+289,SMPN 10 Banawa Selatan
+290,UPTD Kec. Rio Pakava
+291,SDN 1 Rio Pakava
+292,SDN 2 Rio Pakava
+293,SDN 3 Rio Pakava
+294,SDN 4 Rio Pakava
+295,SDN 5 Rio Pakava
+296,SDN 6 Rio Pakava
+297,SDN 7 Rio Pakava
+298,SDN 8 Rio Pakava
+299,SDN 9 Rio Pakava
+300,SDN 10 Rio Pakava
+301,SDN 11 Rio Pakava
+302,SDN 12 Rio Pakava
+303,SMP Negeri 1 Rio Pakava
+304,SMP Negeri 2 Rio Pakava
+305,SMPN Satap 4 Rio Pakava
+306,SMPN Satap 3 Rio Pakava
+307,SDN Pombiu
+308,SDN 14 Rio Pakava
+309,SMP NGOVI KEC. RIO PAKAVA
+310,SDN 13 Rio Pakava
+311,SDN 15 Rio Pakava
+312,SMPN Satap 5 Rio Pakava
+313,SDN 21 Rio Pakava
+314,SMPN 7 RIO PAKAVA
+315,TK Negeri Pembina Desa Minti Makmur
+316,SDN 16 Rio Pakava
+317,SDN 18 Rio Pakava
+318,SDN 19 Rio Pakava
+319,SDN 20 Rio Pakava
+320,SDN 25 Rio Pakava
+321,SDN 26 Rio Pakava
+322,SDN 22 Rio Pakava
+323,SDN 23 Rio Pakava
+324,SDN 24 Rio Pakava
+325,SDN 27 Rio Pakava
+326,SDN 1 Lalundu
+327,SMP Negeri 3 Rio Pakava
+328,SMPN Satap 6 Rio Pakava
+329,SDN 17 RIO PAKAVA
+330,UPTD Kec. Pinembani
+331,SDN 2 Pinembani
+332,SDN 3 Pinembani
+333,SDN 4 Pinembani
+334,SDN 5 Pinembani
+335,SDN 1 Pinembani
+336,SDN 6 Pinembani
+337,SDN 7 Pinembani
+338,SDN 8 Pinembani
+339,SMP Negeri 1 Pinembani
+340,SMPN 2 PINEMBANI
+341,UPTD Kec. Tanantovea
+342,SDN 1 Tanantovea
+343,SDN 3 Tanantovea
+344,SDN 7 Tanantovea
+345,SDN 2 Tanantovea
+346,SDN 9 Tanantovea
+347,SDN 5 Tanantovea
+348,SDN 6 Tanantovea
+349,SDN 4 Tanantovea
+350,SDN 11 Tanantovea
+351,SD Inpres Wani
+352,SDN 10 Tanantovea
+353,SDN 12 Tanantovea
+354,SDN 13 Tanantovea
+355,SD Negeri Kecil Tawao
+356,SMP Negeri 1 Tanantovea
+357,SMPN Satap 3 Tanantovea
+358,SMP Negeri 2 Tanantovea
+359,SDN 8 Tanantovea
+360,SDN 2 TIBO
+361,SMP Negeri 4 Tanantovea
+362,SDN 14 Tanantovea
+363,SMP Negeri 3 Tanantovea
+364,TK Negeri Pembina Desa Wani
+365,UPTD Kec. Labuan
+366,SDN 2 Labuan
+367,SDN 1 Labuan
+368,SDN 4 Labuan
+369,SDN 3 Labuan
+370,SDN 6 Labuan
+371,SDN 5 Labuan
+372,"SDN 7 Labuan "
+373,SDN 13 Labuan
+374,SDN 8 Labuan
+375,SDN 10 Labuan
+376,SDN 12 Labuan
+377,SDN 11 Labuan
+378,SDN 9 Labuan
+379,SMP Negeri 1 Labuan
+380,SMP Negeri 2 Labuan
+381,Taman Kanak-Kanak (TK) Pembina Labuan
+382,SMP Negeri 3 Labuan
+383,SMPN Satap 4 Labuan
+384,UPTD Kec. Sindue Tombusabora
+385,SDN 3 Sindue Tombusabora
+386,SDN 5 Sindue Tombusabora
+387,SDN 4 Sindue Tombusabora
+388,SDN 2 Sindue Tombusabora
+389,SDN 7 Sindue Tombusabora
+390,SDN 1 Sindue Tombusabora
+391,SDN 6 Sindue Tombusabora
+392,SDN 9 Sindue Tombusabora
+393,SDN 8 Sindue Tombusabora
+394,SDN 10 Sindue Tombusabora
+395,SDN 11 Sindue Tombusabora
+396,SDN 12 Sindue Tombusabora
+397,SMP Negeri 1 Sindue Tombusabora
+398,SMP Negeri 2 Sindue Tombusabora
+399,SMPN Satap 3 Sindue Tombusabora
+400,SDN 13 Sindue Tombusabora
+401,SDN 15 Sindue Tombusabora
+402,SDN 14 Sindue Tombusabora
+403,SDN 16 Sindue Tombusabora
+404,TK Negeri Pembina Desa Tibo
+405,SMPN SATAP 4 Sindue Tombusabora
+406,UPTD Kec. Sindue Tobata
+407,SDN 8 Sindue Tobata
+408,SDN 1 Sindue Tobata
+409,SDN 3 Sindue Tobata
+410,SDN 4 Sindue Tobata
+411,SDN 7 Sindue Tobata
+412,SDN 5 Sindue Tobata
+413,SDN 2 Sindue Tobata
+414,SDN 6 Sindue Tobata
+415,SDN 9 Sindue Tobata
+416,SDN 10 Sindue Tobata
+417,SMP Negeri 1 Sindue Tobata
+418,SMP Negeri 2 Sindue Tobata
+419,SDN 11 Sindue Tobata
+420,SDN 13 Sindue Tobata
+421,SDN 12 Sindue Tobata
+422,TK Negeri Pembina Desa Oti
+423,SMPN Satap 4 Sindue Tobata
+424,SMP Negeri 4 Sindue Tobata
+425,SMPN Satap 3 Sindue Tobata
+426,UPTD Kec. Sindue
+427,SDN 5 Sindue
+428,SDN 9 Sindue
+429,SDN 14 Sindue
+430,SDN 2 Sindue
+431,SDN 7 Sindue
+432,SDN 1 Sindue
+433,SDN 6 Sindue
+434,SDN 4 Sindue
+435,SDN 8 Sindue
+436,SDN 3 Sindue
+437,SDN 10 Sindue
+438,SDN 11 Sindue
+439,SDN 13 Sindue
+440,SDN 22 Sindue
+441,SDN 12 Sindue
+442,SDN 15 Sindue
+443,SDN 16 Sindue
+444,SDN 17 Sindue
+445,SDN 19 Sindue
+446,SDN 18 Sindue
+447,SDN 20 Sindue
+448,SDN 21 Sindue
+449,SMP Negeri 1 Sindue
+450,SMP Negeri 2 Sindue
+451,SMP Negeri 3 Sindue
+452,SMP Negeri 4 Sindue
+453,SMP Negeri 5 Sindue
+454,SDN 23 Sindue
+455,SDN 24 Sindue
+456,SDN 25 Sindue
+457,TK Pembina Toaya
+458,SLB Negeri Sindue
+459,SKB SAKA PANDE DESA TOAYA
+460,UPTD Kec. Sirenja
+461,SDN 8 Sirenja
+462,SDN 14 Sirenja
+463,SDN 3 Sirenja
+464,SDN 4 Sirenja
+465,SDN 11 Sirenja
+466,SDN 12 Sirenja
+467,SDN 6 Sirenja
+468,SDN 9 Sirenja
+469,SDN 16 Sirenja
+470,SDN 10 Sirenja
+471,SDN 15 Sirenja
+472,SDN 18 Sirenja
+473,SDN 23 Sirenja
+474,SDN 5 Sirenja
+475,SDN 1 Sirenja
+476,SDN 2 Sirenja
+477,SDN 17 Sirenja
+478,SDN 19 Sirenja
+479,SDN 20 Sirenja
+480,SDN 7 Sirenja
+481,SDN 13 Sirenja
+482,SDN 21 Sirenja
+483,SDN 22 Sirenja
+484,SDN 25 Sirenja
+485,SDN 24 Sirenja
+486,SMP Negeri 1 Sirenja
+487,SMP Negeri 2 Sirenja
+488,SMP Negeri 3 Sirenja
+489,SMPN Satap 4 Sirenja
+490,TK Negeri Pembina Desa Balintuma
+491,UPTD Kec. Balaesang
+492,SDN 8 Balaesang
+493,SDN 9 Balaesang
+494,SDN 14 Balaesang
+495,SDN 20 Balaesang
+496,SDN 2 Balaesang
+497,SDN 10 Balaesang
+498,SDN 17 Balaesang
+499,SDN 18 Balaesang
+500,SDN 25 Balaesang
+501,SDN 3 Balaesang
+502,SDN 13 Balaesang
+503,SDN 23 Balaesang
+504,SDN 24 Balaesang
+505,SDN 4 Balaesang
+506,SDN 12 Balaesang
+507,SDN 19 Balaesang
+508,SDN 22 Balaesang
+509,SDN 5 Balaesang
+510,SDN 11 Balaesang
+511,SDN 6 Balaesang
+512,SDN 15 Balaesang
+513,SDN 21 Balaesang
+514,SDN 7 Balaesang
+515,SDN 16 Balaesang
+516,SDN 26 Balaesang
+517,SDN 27 Balaesang
+518,SMP Negeri 1 Balaesang
+519,SMP Negeri 2 Balaesang
+520,SMP Negeri 3 Balaesang
+521,SDN 1 Balaesang
+522,SMP Negeri Terbuka 1 Balaesang
+523,SMP Negeri Terbuka 2 Balaesang
+524,SMP Negeri 4 Balaesang
+525,SMPN Satap 5 Balaesang
+526,SDN 28 Balaesang
+527,SMPN Satap 6 Balaesang
+528,SDN 1 Balaesang Tanjung
+529,SDN 7 Balaesang Tanjung
+530,SDN 11 Balaesang Tanjung
+531,SDN 2 Balaesang Tanjung
+532,SDN 3 Balaesang Tanjung
+533,SDN 8 Balaesang Tanjung
+534,SDN 9 Balaesang Tanjung
+535,SDN 13 Balaesang Tanjung
+536,SDN 14 Balaesang Tanjung
+537,SDN 15 Balaesang Tanjung
+538,SDN 4 Balaesang Tanjung
+539,SDN 16 Balaesang Tanjung
+540,SDN 6 Balaesang Tanjung
+541,SDN 5 Balaesang Tanjung
+542,SDN 12 Balaesang Tanjung
+543,SDN 10 Balaesang Tanjung
+544,SDN 17 Balaesang Tanjung
+545,SDN 18 Balaesang Tanjung
+546,SMPN 1 Balaesang Tanjung
+547,SDN 19 Balaesang Tanjung
+548,SDN 20 Balaesang Tanjung
+549,SMPN Satap 2 Balaesang Tanjung
+550,SMPN Satap 7 Balaesang Tanjung
+551,SMPN Satap 5 Balaesang Tanjung
+552,SMPN 7 BALAESANG TANJUNG
+553,SMPN Satap 3 Balaesang Tanjung
+554,SMPN Satap 4 Balaesang Tanjung
+555,SMPN Satap 6 Balaesang Tanjung
+556,UPTD Kec. Balaesang Tanjung
+557,UPTD Kec. Dampelas
+558,SDN 2 Dampelas
+559,SDN 3 Dampelas
+560,SDN 1 Dampelas
+561,SDN 7 Dampelas
+562,SDN 4 Dampelas
+563,SDN 6 Dampelas
+564,SDN 5 Dampelas
+565,SDN 9 Dampelas
+566,SDN 8 Dampelas
+567,SDN 17 Dampelas
+568,SDN 10 Dampelas
+569,SDN 11 Dampelas
+570,SDN 12 Dampelas
+571,SDN 23 Dampelas
+572,SDN 18 Dampelas
+573,SDN 33 Dampelas
+574,SDN 15 Dampelas
+575,SDN 26 Dampelas
+576,SDN 13 Dampelas
+577,SDN 14 Dampelas
+578,SDN 24 Dampelas
+579,SDN 20 Dampelas
+580,SDN 16 Dampelas
+581,SDN 22 Dampelas
+582,SDN 21 Dampelas
+583,SDN 19 Dampelas
+584,SDN 27 Dampelas
+585,SDN 25 Dampelas
+586,SDN 28 Dampelas
+587,SMP Negeri 1 Dampelas
+588,SMP Negeri 2 Dampelas
+589,SMP Negeri 3 Dampelas
+590,SMP Negeri 4 Dampelas
+591,SMP Negeri 5 Dampelas
+592,SMP Negeri 6 Dampelas
+593,SD Inpres 1 Bayang
+594,SDN 29 Dampelas
+595,SMPN Satap 7 Dampelas
+596,SDN 30 Dampelas
+597,SDN 32 Dampelas
+598,SDN 31 Dampelas
+599,SMPN Satap 8 Dampelas
+600,SDN 34 Dampelas
+601,SMPN Satap 9 Dampelas
+602,TK Negeri Pembina Desa Sabang
+603,SMP Negeri 7 Dampelas
+604,UPTD Kec. Sojol
+605,SDN 26 Sojol
+606,SDN 4 Sojol
+607,SDN 1 Sojol
+608,SDN 5 Sojol
+609,SDN 3 Sojol
+610,SDN 2 Sojol
+611,SDN 18 Sojol
+612,SDN 6 Sojol
+613,SDN 14 Sojol
+614,SDN 27 Sojol
+615,SDN 7 Sojol
+616,SDN 28 Sojol
+617,SDN 9 Sojol
+618,SDN 10 Sojol
+619,SDN 8 Sojol
+620,SDN 11 Sojol
+621,SD Negeri Balukang
+622,SDN 12 Sojol
+623,SDN 13 Sojol
+624,SDN 15 Sojol
+625,SDN 16 Sojol
+626,SDN 21 Sojol
+627,SDN 22 Sojol
+628,SDN 19 Sojol
+629,SDN 23 Sojol
+630,SDN 17 Sojol
+631,SDN 20 Sojol
+632,SDN 24 Sojol
+633,SDN 25 Sojol
+634,SMP Negeri 1 Sojol
+635,SMP Negeri 2 Sojol
+636,SMP Negeri 3 Sojol
+637,SMP Negeri 4 Sojol
+638,SMP Negeri 5 Sojol
+639,SMPN Satap 6 Sojol
+640,SMPN SATAP 7 SOJOL
+641,SMPN 8 SOJOL
+642,SMPN 9 SOJOL
+643,SMPN 10 SOJOL
+644,TK Negeri Pembina Tonggolobibi
+645,SMPN Satap 10 Sojol
+646,SMP Negeri 6 Sojol
+647,SMPN Satap 9 Sojol
+648,UPTD Kec. Sojol Utara
+649,SD SMP Satu Atap Negeri 7 Sojol Utara
+650,SDN 1 Sojol Utara
+651,SDN 3 Sojol Utara
+652,SDN 4 Sojol Utara
+653,SDN 6 Sojol Utara
+654,SDN 7 Sojol Utara
+655,SDN 8 Sojol Utara
+656,SDN 5 Sojol Utara
+657,SMPN Satap 2 Sojol Utara
+658,SMPN Satap 3 Sojol Utara
+659,SMP Negeri 1 Sojol Utara
+660,SDN 2 Sojol Utara
+661,SMP Negeri 2 Sojol Utara
+662,Dinas Pemuda dan Olahraga
+663,Dinas Pemberdayaan Masyarakat dan Desa
+664,Dinas Sosial
+665,Badan Penanggulangan Bencana Daerah
+666,Dinas Pemberdayaan Perempuan dan Perlindungan Anak
+667,Dinas Tenaga Kerja dan Transmigrasi
+668,"Dinas Tanaman Pangan, Hortikultura dan Perkebunan"
+669,Dinas Peternakan dan Kesehatan Hewan
+670,Dinas Perikanan
+671,Dinas Ketahanan Pangan
+672,"Badan Pelaksana Penyuluhan Pertanian, Perikanan dan Kehutanan "
+673,Dinas Perindustrian dan Perdagangan
+674,"Dinas Koperasi, Usaha Mikro Kecil dan Menengah"
+675,Badan Pengelolaan Keuangan dan Aset Daerah
+676,Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu
+677,Badan Pendapatan Daerah
+678,Inspektorat
+679,Badan Perencanaan Pembangunan Daerah
+680,Badan Penelitian dan Pengembangan
+681,Dinas Lingkungan Hidup Daerah
+682,Dinas Pariwisata
+683,Badan Kesatuan Bangsa dan Politik
+684,Kantor Satuan Polisi Pamong Praja
+685,"Badan Kepegawaian, Pendidikan dan Pelatihan Daerah"
+686,Dinas Perpustakaan
+687,Dinas Kearsipan
+688,Kantor Kecamatan Banawa
+689,Kantor Kelurahan Ganti
+690,Kantor Kelurahan Tanjung Batu
+691,Kantor Kelurahan Gunung Bale
+692,Kantor Kelurahan Boneoge
+693,Kantor Kelurahan Maleni
+694,Kantor Kelurahan Kabonga Kecil
+695,Kantor Kelurahan Boya
+696,Kantor Kelurahan Labuan Bajo
+697,Kantor Kelurahan Kabonga Besar
+698,Kantor Kecamatan Banawa Tengah
+699,Kantor Kecamatan Banawa Selatan
+700,Kantor Kecamatan Riopakava
+701,Kantor Kecamatan Pinembani
+702,Kantor Kecamatan Labuan
+703,Kantor Kecamatan Tanantovea
+704,Kantor Kecamatan Sindue
+705,Kantor Kecamatan Sindue Tobata
+706,Kantor Kecamatan Sindue Tombusabora
+707,Kantor Kecamatan Sirenja
+708,Kantor Kecamatan Balaesang
+709,Kantor Kecamatan Dampelas
+710,Kantor Kecamatan Sojol
+711,Kantor Kecamatan Sojol Utara
+712,Kantor Kecamatan Balaesang Tanjung

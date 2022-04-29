@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\Education;
 use Illuminate\Support\Str;
 use App\Models\Enums\GenderEnum;
 use Laravel\Sanctum\HasApiTokens;
@@ -75,7 +74,7 @@ class User extends Authenticatable
     }
 
     /**
-     * The education that belong to the User
+     * The education that belong to the User.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
@@ -132,7 +131,7 @@ class User extends Authenticatable
             return $this->getAvatar();
         }
 
-        if (!\filter_var($value, \FILTER_VALIDATE_URL)) {
+        if (! \filter_var($value, \FILTER_VALIDATE_URL)) {
             return asset(Storage::url($value));
         }
 
@@ -151,7 +150,7 @@ class User extends Authenticatable
 
             foreach ($education as $item) {
                 if ($item->prefix_title != null) {
-                    $value = Str::start($value, $item->prefix_title . ' ');
+                    $value = Str::start($value, $item->prefix_title.' ');
                 } elseif ($item->suffix_title !== null) {
                     $value .= ', ';
 
@@ -165,13 +164,12 @@ class User extends Authenticatable
 
                     if (Str::of($previousTitle)->contains($programme)) {
                         $name = explode(',', $value);
-                        $value = $name[0] . ', ';
+                        $value = $name[0].', ';
                     }
                     $value = Str::finish($value, $item->suffix_title);
                 }
             }
         }
-
 
         return $value;
     }

@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
+use App\Models\Office;
 use Illuminate\Support\Str;
-use App\Models\LocationAddress;
 use Illuminate\Database\Seeder;
 
-class LocationAddressSeeder extends Seeder
+class OfficeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,7 +15,7 @@ class LocationAddressSeeder extends Seeder
      */
     public function run()
     {
-        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('LocationAddress')));
+        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('OfficeSeeder')));
 
         if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory
@@ -26,29 +26,16 @@ class LocationAddressSeeder extends Seeder
         $data = array_map('str_getcsv', $file);
         $keys = $data[0];
         array_shift($data);
-        $locationAddresses = [];
+        $offices = [];
         foreach ($data as $row) {
             $row = \array_combine($keys, $row);
-
-            if ($row['latitude'] === '') {
-                $row['latitude'] = null;
-            }
-
-            if ($row['longitude'] === '') {
-                $row['longitude'] = null;
-            }
-
-            if ($row['address'] === '') {
-                $row['address'] = null;
-            }
-
-            $locationAddresses[] = $row;
+            $offices[] = $row;
         }
 
         $idColumns = ['id'];
 
-        LocationAddress::upsert(
-            $locationAddresses,
+        Office::upsert(
+            $offices,
             $idColumns,
             array_diff($keys, $idColumns)
         );
