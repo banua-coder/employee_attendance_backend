@@ -13,10 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('leave_types', function (Blueprint $table) {
+        Schema::create('holidays', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 50);
-            $table->integer('default_quota');
+            $table->string('name', 100);
+            $table->text('description');
+            $table->date('holiday_date')->unique();
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('leave_types');
+        Schema::dropIfExists('holidays');
     }
 };

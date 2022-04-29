@@ -32,6 +32,8 @@ class DatabaseSeeder extends Seeder
             OutstationTypeSeeder::class,
             OutstationStatusSeeder::class,
             LeaveTypeSeeder::class,
+            DepartmentSeeder::class,
+            HolidaySeeder::class,
         ]);
     }
 }

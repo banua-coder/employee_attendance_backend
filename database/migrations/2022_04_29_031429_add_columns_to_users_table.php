@@ -34,6 +34,7 @@ return new class extends Migration
                     ->unique();
                 $table->text('face_data')->nullable();
                 $table->text('profile_picture')->nullable();
+                $table->datetime('suspended_until')->nullable();
             });
 
             $table->index('username');

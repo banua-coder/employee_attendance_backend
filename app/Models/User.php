@@ -2,13 +2,18 @@
 
 namespace App\Models;
 
+use App\Models\Education;
+use Illuminate\Support\Str;
+use App\Models\Enums\GenderEnum;
 use Laravel\Sanctum\HasApiTokens;
 use Rackbeat\UIAvatars\HasAvatar;
+use App\Models\Pivot\EducationUser;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class User extends Authenticatable
 {
@@ -69,6 +74,22 @@ class User extends Authenticatable
         return $this->morphOne(LocationAddress::class, 'location_addressable');
     }
 
+    /**
+     * The education that belong to the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function education(): BelongsToMany
+    {
+        return $this->belongsToMany(Education::class, EducationUser::class, 'user_id', 'education_id')
+            ->withPivot('instition_name', 'graduation_date', 'prefix_title', 'suffix_title', 'grade_point_average');
+    }
+
+    public function lastEducation()
+    {
+        return $this->hasOne(Education::class)->latestOfMany('education_id');
+    }
+
     // Methods
     public function getAvatar($size = 256)
     {
@@ -76,6 +97,33 @@ class User extends Authenticatable
     }
 
     // Scopes
+    public function scopeIsActive($query, bool $isActive = true)
+    {
+        return $isActive
+            ? $query->whereNull('suspended_at')
+            : $query->whereNotNull('suspended_at');
+    }
+
+    public function scopeGender($query, $gender)
+    {
+        return $query->whereRelation('gender', 'name', '=', $gender)
+            ->orWhereRelation('gender', 'id', '=', $gender);
+    }
+
+    public function scopeActive($query)
+    {
+        return $query->whereNull('suspended_at');
+    }
+
+    public function scopeMale($query)
+    {
+        return $query->whereRelation('gender', 'id', '=', GenderEnum::MALE);
+    }
+
+    public function scopeFemale($query)
+    {
+        return $query->whereRelation('gender', 'id', '=', GenderEnum::FEMALE);
+    }
 
     // Accessors
     public function getAvatarAttribute($value)
@@ -84,8 +132,48 @@ class User extends Authenticatable
             return $this->getAvatar();
         }
 
-        return asset(Storage::url($value));
+        if (!\filter_var($value, \FILTER_VALIDATE_URL)) {
+            return asset(Storage::url($value));
+        }
+
+        return $value;
     }
 
+    public function getNameAttribute($value)
+    {
+
+        if ($this->relationLoaded('education')) {
+            $education = $this->education;
+
+            if (count($education) <= 0) {
+                return $value;
+            }
+
+            foreach ($education as $item) {
+                if ($item->prefix_title != null) {
+                    $value = Str::start($value, $item->prefix_title . ' ');
+                } elseif ($item->suffix_title !== null) {
+                    $value .= ', ';
+
+                    $programme = explode('.', $item->suffix_title)[1];
+                    $previousTitle = explode(',', $value);
+                    if (count($previousTitle) > 1) {
+                        $previousTitle = $previousTitle[1];
+                    } else {
+                        $previousTitle = '';
+                    }
+
+                    if (Str::of($previousTitle)->contains($programme)) {
+                        $name = explode(',', $value);
+                        $value = $name[0] . ', ';
+                    }
+                    $value = Str::finish($value, $item->suffix_title);
+                }
+            }
+        }
+
+
+        return $value;
+    }
     // Mutators
 }
