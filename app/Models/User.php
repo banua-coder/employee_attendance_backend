@@ -9,6 +9,7 @@ use Rackbeat\UIAvatars\HasAvatar;
 use App\Models\Pivot\EducationUser;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -89,6 +90,16 @@ class User extends Authenticatable
         return $this->hasOne(Education::class)->latestOfMany('education_id');
     }
 
+    /**
+     * Get all of the attendances for the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function attendances(): HasMany
+    {
+        return $this->hasMany(Attendance::class);
+    }
+
     // Methods
     public function getAvatar($size = 256)
     {
@@ -131,7 +142,7 @@ class User extends Authenticatable
             return $this->getAvatar();
         }
 
-        if (! \filter_var($value, \FILTER_VALIDATE_URL)) {
+        if (!\filter_var($value, \FILTER_VALIDATE_URL)) {
             return asset(Storage::url($value));
         }
 
@@ -150,7 +161,7 @@ class User extends Authenticatable
 
             foreach ($education as $item) {
                 if ($item->prefix_title != null) {
-                    $value = Str::start($value, $item->prefix_title.' ');
+                    $value = Str::start($value, $item->prefix_title . ' ');
                 } elseif ($item->suffix_title !== null) {
                     $value .= ', ';
 
@@ -164,7 +175,7 @@ class User extends Authenticatable
 
                     if (Str::of($previousTitle)->contains($programme)) {
                         $name = explode(',', $value);
-                        $value = $name[0].', ';
+                        $value = $name[0] . ', ';
                     }
                     $value = Str::finish($value, $item->suffix_title);
                 }
