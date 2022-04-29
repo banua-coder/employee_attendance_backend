@@ -37,6 +37,8 @@ class DatabaseSeeder extends Seeder
             OfficeSeeder::class,
             LocationAddressSeeder::class,
             EmploynmentStatusSeeder::class,
+            UserSeeder::class,
+            UserGradeSeeder::class,
         ]);
     }
 }

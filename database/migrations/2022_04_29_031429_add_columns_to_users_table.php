@@ -26,6 +26,7 @@ return new class extends Migration
                     ->cascadeOnUpdate();
                 $table->foreignId('religion_id')
                     ->constrained('religions', 'id')
+                    ->nullable()
                     ->cascadeOnDelete()
                     ->cascadeOnUpdate();
                 $table->string('email')->nullable()->change();

@@ -1,0 +1,2 @@
+id,name,date_of_birth,username,gender_id,religion_id,email,id_card_number
+1,Administrator,2022-01-01,administrator,1,1,admin@banuacoders.com,7200000000000001

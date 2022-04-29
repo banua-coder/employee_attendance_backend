@@ -26,9 +26,27 @@ class UserGradeSeeder extends Seeder
         $data = array_map('str_getcsv', $file);
         $keys = $data[0];
         array_shift($data);
+        $userGrades = [];
         foreach ($data as $row) {
             $row = \array_combine($keys, $row);
-            // create
+
+            if ($row['end_date'] === '') {
+                $row['end_date'] = null;
+            }
+
+            if ($row['notes'] === '') {
+                $row['notes'] = null;
+            }
+
+            $userGrades[] = $row;
         }
+
+        $idColumns = ['id'];
+
+        \App\Models\UserGrade::upsert(
+            $userGrades,
+            $idColumns,
+            array_diff($keys, $idColumns)
+        );
     }
 }
