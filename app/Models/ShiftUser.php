@@ -1,19 +1,20 @@
 <?php
 
-namespace App\Models\Pivot;
+namespace App\Models;
 
 use App\Models\User;
-use App\Models\WorkScheme;
-use Illuminate\Database\Eloquent\Relations\Pivot;
+use App\Models\Shift;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class UserWorkScheme extends Pivot
+class ShiftUser extends Model
 {
     protected $guarded = [];
 
     // Relationships
+
     /**
-     * Get the user that owns the UserWorkScheme.
+     * Get the user that owns the ShiftUser.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -23,13 +24,13 @@ class UserWorkScheme extends Pivot
     }
 
     /**
-     * Get the workScheme that owns the UserWorkScheme.
+     * Get the shift that owns the ShiftUser.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function workScheme(): BelongsTo
+    public function shiftType(): BelongsTo
     {
-        return $this->belongsTo(WorkScheme::class);
+        return $this->belongsTo(Shift::class);
     }
 
     // Scopes

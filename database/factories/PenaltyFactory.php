@@ -1,13 +1,13 @@
 <?php
 
-namespace Database\Factories\Pivot;
+namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Pivot\EducationUser>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Penalty>
  */
-class EducationUserFactory extends Factory
+class PenaltyFactory extends Factory
 {
     /**
      * Define the model's default state.

@@ -36,6 +36,7 @@ class DatabaseSeeder extends Seeder
             HolidaySeeder::class,
             OfficeSeeder::class,
             LocationAddressSeeder::class,
+            EmploynmentStatusSeeder::class,
         ]);
     }
 }

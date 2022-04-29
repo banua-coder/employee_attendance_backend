@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Models\UserGrade;
+use App\Models\PenaltyUser;
 use Illuminate\Support\Str;
 use App\Models\Pivot\ShiftUser;
 use App\Models\Enums\GenderEnum;
@@ -80,17 +82,16 @@ class User extends Authenticatable
     /**
      * The education that belong to the User.
      *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function education(): BelongsToMany
+    public function education(): HasMany
     {
-        return $this->belongsToMany(Education::class, EducationUser::class, 'user_id', 'education_id')
-            ->withPivot('instition_name', 'graduation_date', 'prefix_title', 'suffix_title', 'grade_point_average');
+        return $this->hasMany(EducationUser::class);
     }
 
     public function lastEducation(): HasONe
     {
-        return $this->hasOne(Education::class)->latestOfMany('education_id');
+        return $this->hasOne(EducationUser::class)->latestOfMany('education_id');
     }
 
     /**
@@ -106,11 +107,11 @@ class User extends Authenticatable
     /**
      * The shifts that belong to the User.
      *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function shifts(): BelongsToMany
+    public function shifts(): HasMany
     {
-        return $this->belongsToMany(Shift::class, ShiftUser::class, 'user_id', 'shift_id');
+        return $this->hasMany(ShiftUser::class);
     }
 
     /**
@@ -120,17 +121,17 @@ class User extends Authenticatable
      */
     public function shift(): HasOne
     {
-        return $this->hasOne(Shift::class)->latestOfMany();
+        return $this->hasOne(ShiftUser::class)->latestOfMany();
     }
 
     /**
      * The workSchemes that belong to the User.
      *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function workSchemes(): BelongsToMany
+    public function workSchemes(): HasMany
     {
-        return $this->belongsToMany(WorkScheme::class, UserWorkScheme::class, 'user_id', 'work_scheme_id');
+        return $this->hasMany(UserWorkScheme::class);
     }
 
     /**
@@ -140,7 +141,47 @@ class User extends Authenticatable
      */
     public function workScheme(): HasOne
     {
-        return $this->hasOne(WorkScheme::class)->latestOfMany();
+        return $this->hasOne(UserWorkScheme::class)->latestOfMany();
+    }
+
+    /**
+     * Get all of the penalties for the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function penalties(): HasMany
+    {
+        return $this->hasMany(PenaltyUser::class);
+    }
+
+    /**
+     * Get the penalty associated with the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function penalty(): HasOne
+    {
+        return $this->hasOne(PenaltyUser::class)->latestOfMany('start_date');
+    }
+
+    /**
+     * Get all of the grades for the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function grades(): HasMany
+    {
+        return $this->hasMany(UserGrade::class);
+    }
+
+    /**
+     * Get the grade associated with the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function grade(): HasOne
+    {
+        return $this->hasOne(UserGrade::class)->latestOfMany('start_date');
     }
 
     // Methods
@@ -185,7 +226,7 @@ class User extends Authenticatable
             return $this->getAvatar();
         }
 
-        if (! \filter_var($value, \FILTER_VALIDATE_URL)) {
+        if (!\filter_var($value, \FILTER_VALIDATE_URL)) {
             return asset(Storage::url($value));
         }
 
@@ -204,7 +245,7 @@ class User extends Authenticatable
 
             foreach ($education as $item) {
                 if ($item->prefix_title != null) {
-                    $value = Str::start($value, $item->prefix_title.' ');
+                    $value = Str::start($value, $item->prefix_title . ' ');
                 } elseif ($item->suffix_title !== null) {
                     $value .= ', ';
 
@@ -218,7 +259,7 @@ class User extends Authenticatable
 
                     if (Str::of($previousTitle)->contains($programme)) {
                         $name = explode(',', $value);
-                        $value = $name[0].', ';
+                        $value = $name[0] . ', ';
                     }
                     $value = Str::finish($value, $item->suffix_title);
                 }

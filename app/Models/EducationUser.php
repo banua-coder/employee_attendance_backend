@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Models\Pivot;
+namespace App\Models;
 
 use App\Models\User;
 use App\Models\Education;
-use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class EducationUser extends Pivot
+class EducationUser extends Model
 {
     protected $guarded = [];
 
@@ -30,7 +30,7 @@ class EducationUser extends Pivot
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function education(): BelongsTo
+    public function educationType(): BelongsTo
     {
         return $this->belongsTo(Education::class);
     }

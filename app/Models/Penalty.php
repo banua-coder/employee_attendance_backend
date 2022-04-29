@@ -2,12 +2,12 @@
 
 namespace App\Models;
 
-use App\Models\UserGrade;
+use App\Models\PenaltyUser;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Grade extends Model
+class Penalty extends Model
 {
     use HasFactory;
 
@@ -15,13 +15,13 @@ class Grade extends Model
 
     // Relationships
     /**
-     * Get all of the grades for the Grade
+     * Get all of the penalties for the Penalty
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function grades(): HasMany
+    public function penalties(): HasMany
     {
-        return $this->hasMany(UserGrade::class);
+        return $this->hasMany(PenaltyUser::class);
     }
 
     // Scopes
