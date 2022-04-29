@@ -3,12 +3,15 @@
 namespace App\Models;
 
 use Illuminate\Support\Str;
+use App\Models\Pivot\ShiftUser;
 use App\Models\Enums\GenderEnum;
 use Laravel\Sanctum\HasApiTokens;
 use Rackbeat\UIAvatars\HasAvatar;
 use App\Models\Pivot\EducationUser;
+use App\Models\Pivot\UserWorkScheme;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -85,7 +88,7 @@ class User extends Authenticatable
             ->withPivot('instition_name', 'graduation_date', 'prefix_title', 'suffix_title', 'grade_point_average');
     }
 
-    public function lastEducation()
+    public function lastEducation(): HasONe
     {
         return $this->hasOne(Education::class)->latestOfMany('education_id');
     }
@@ -98,6 +101,46 @@ class User extends Authenticatable
     public function attendances(): HasMany
     {
         return $this->hasMany(Attendance::class);
+    }
+
+    /**
+     * The shifts that belong to the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function shifts(): BelongsToMany
+    {
+        return $this->belongsToMany(Shift::class, ShiftUser::class, 'user_id', 'shift_id');
+    }
+
+    /**
+     * Get the shift associated with the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function shift(): HasOne
+    {
+        return $this->hasOne(Shift::class)->latestOfMany();
+    }
+
+    /**
+     * The workSchemes that belong to the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function workSchemes(): BelongsToMany
+    {
+        return $this->belongsToMany(WorkScheme::class, UserWorkScheme::class, 'user_id', 'work_scheme_id');
+    }
+
+    /**
+     * Get the workScheme associated with the User.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function workScheme(): HasOne
+    {
+        return $this->hasOne(WorkScheme::class)->latestOfMany();
     }
 
     // Methods
@@ -142,7 +185,7 @@ class User extends Authenticatable
             return $this->getAvatar();
         }
 
-        if (!\filter_var($value, \FILTER_VALIDATE_URL)) {
+        if (! \filter_var($value, \FILTER_VALIDATE_URL)) {
             return asset(Storage::url($value));
         }
 
@@ -161,7 +204,7 @@ class User extends Authenticatable
 
             foreach ($education as $item) {
                 if ($item->prefix_title != null) {
-                    $value = Str::start($value, $item->prefix_title . ' ');
+                    $value = Str::start($value, $item->prefix_title.' ');
                 } elseif ($item->suffix_title !== null) {
                     $value .= ', ';
 
@@ -175,7 +218,7 @@ class User extends Authenticatable
 
                     if (Str::of($previousTitle)->contains($programme)) {
                         $name = explode(',', $value);
-                        $value = $name[0] . ', ';
+                        $value = $name[0].', ';
                     }
                     $value = Str::finish($value, $item->suffix_title);
                 }

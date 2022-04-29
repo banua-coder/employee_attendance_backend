@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Support\Str;
 use Illuminate\Database\Seeder;
 
-class AttendanceCodeSeeder extends Seeder
+class ShiftUserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,7 +14,7 @@ class AttendanceCodeSeeder extends Seeder
      */
     public function run()
     {
-        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('AttendanceCodeSeeder')));
+        $filename = Str::plural(Str::replace('_seeder', '', Str::snake('ShiftUserSeeder')));
 
         if (! \file_exists(database_path("csvs/$filename.csv"))) {
             // factory

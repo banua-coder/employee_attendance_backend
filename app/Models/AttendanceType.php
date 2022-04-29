@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\AttendanceCode;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -21,7 +20,7 @@ class AttendanceType extends Model
     // Relationships
 
     /**
-     * Get all of the attendanceCodes for the AttendanceType
+     * Get all of the attendanceCodes for the AttendanceType.
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */

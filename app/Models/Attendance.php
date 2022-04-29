@@ -2,9 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\User;
-use App\Models\AttendanceCode;
-use App\Models\AttendanceStatus;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -19,7 +16,7 @@ class Attendance extends Model
     // Relationships
 
     /**
-     * Get the user that owns the Attendance
+     * Get the user that owns the Attendance.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -29,7 +26,7 @@ class Attendance extends Model
     }
 
     /**
-     * Get the attendanceCode that owns the Attendance
+     * Get the attendanceCode that owns the Attendance.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -39,7 +36,7 @@ class Attendance extends Model
     }
 
     /**
-     * Get the attendanceStatus that owns the Attendance
+     * Get the attendanceStatus that owns the Attendance.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -84,7 +81,7 @@ class Attendance extends Model
             return $value;
         }
 
-        if (!\filter_var($value, \FILTER_VALIDATE_URL)) {
+        if (! \filter_var($value, \FILTER_VALIDATE_URL)) {
             return asset(Storage::url($value));
         }
 

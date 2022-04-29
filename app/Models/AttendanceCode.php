@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-use App\Models\Attendance;
-use App\Models\AttendanceType;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -18,7 +16,7 @@ class AttendanceCode extends Model
     // Relationships
 
     /**
-     * Get the attendanceType that owns the AttendanceCode
+     * Get the attendanceType that owns the AttendanceCode.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -28,7 +26,7 @@ class AttendanceCode extends Model
     }
 
     /**
-     * Get all of the attendances for the AttendanceCode
+     * Get all of the attendances for the AttendanceCode.
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
